@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -430,6 +430,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -440,6 +441,10 @@
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="15-91-1102" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="15-91-1102" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -457,7 +462,23 @@
 <connect gate="G$1" pin="PIN9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="LABEL07" value="" constant="no"/>
+<attribute name="LABEL08" value="" constant="no"/>
+<attribute name="LABEL09" value="" constant="no"/>
+<attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="GRPB052VWVN-RC" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="GRPB052VWVN-RC" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_5103308-1" package="5103308-1">
@@ -475,6 +496,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -485,6 +507,10 @@
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="5103308-1" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="5103308-1" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -668,15 +694,15 @@
 <packages>
 <package name="SOT-223-3">
 <description>&lt;b&gt;Description:&lt;/b&gt; Standard SOT-223-3 Package.&lt;br/&gt;</description>
-<smd name="P$1" x="0" y="3.25" dx="4" dy="1.5" layer="1"/>
-<smd name="P$2" x="-2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$3" x="0" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$4" x="2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3.25" y1="-1.75" x2="-3.25" y2="1.75" width="0.127" layer="21"/>
-<text x="-3.25" y="4.5" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<smd name="P$1" x="3.25" y="0" dx="4" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$2" x="-3.25" y="2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$3" x="-3.25" y="0" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$4" x="-3.25" y="-2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.127" layer="21"/>
+<text x="4.5" y="3.25" size="1.016" layer="25" font="vector" ratio="16" rot="R270">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -4947,7 +4973,10 @@
 </device>
 <device name="LOGO_MEDIUM" package="MF_LOGO_MEDIUM">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LOGO_SMALL" package="MF_LOGO_SMALL">

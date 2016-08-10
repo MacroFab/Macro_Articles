@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1123,7 +1123,7 @@
 <attribute name="VALUE" value="MF-CON-MICROUSB-RIGHT" x="2.921" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U1" library="MF_IC_Power" package="SOT-223-3" value="NCP1117LPST33T3G" x="28.575" y="28.575" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.809" y="23.821" size="1.27" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="22.661" y="28.269" size="1.27" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="MPN" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HOUSEPART" value="NO" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATE" value="1" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1209,6 +1209,8 @@
 <attribute name="LABEL01" value="MISO" x="14.986" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="30306-6002HB" x="14.986" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.478" y="12.827" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="URL" value="" x="14.986" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HOUSEPART" value="" x="14.986" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TC2030" library="PP_Connectors" package="30306-6002HB" value="30306-6002HB" x="33.655" y="10.795" rot="R270">
 <attribute name="LABEL02" value="VCC" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1220,6 +1222,8 @@
 <attribute name="LABEL04" value="MOSI" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LABEL01" value="MISO" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="30306-6002HB" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="URL" value="" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HOUSEPART" value="" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="10PIN_ISP" library="PP_Connectors" package="5103308-1" value="5103308-1" x="5.08" y="10.795" smashed="yes" rot="R270">
 <attribute name="LABEL02" value="VCC" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1236,6 +1240,8 @@
 <attribute name="MPN" value="5103308-1" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="1" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="0.635" y="21.336" size="0.8128" layer="25" font="vector" ratio="16"/>
+<attribute name="URL" value="" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HOUSEPART" value="" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>

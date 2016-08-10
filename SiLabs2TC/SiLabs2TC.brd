@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -172,15 +172,15 @@
 <packages>
 <package name="SOT-223-3">
 <description>&lt;b&gt;Description:&lt;/b&gt; Standard SOT-223-3 Package.&lt;br/&gt;</description>
-<smd name="P$1" x="0" y="3.25" dx="4" dy="1.5" layer="1"/>
-<smd name="P$2" x="-2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$3" x="0" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$4" x="2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3.25" y1="-1.75" x2="-3.25" y2="1.75" width="0.127" layer="21"/>
-<text x="-3.25" y="4.5" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<smd name="P$1" x="3.25" y="0" dx="4" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$2" x="-3.25" y="2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$3" x="-3.25" y="0" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$4" x="-3.25" y="-2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.127" layer="21"/>
+<text x="4.5" y="3.25" size="1.016" layer="25" font="vector" ratio="16" rot="R270">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -1122,13 +1122,13 @@
 <attribute name="MPN" value="MF-CON-MICROUSB-RIGHT" x="2.921" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HOUSEPART" value="YES" x="2.921" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U1" library="MF_IC_Power" package="SOT-223-3" value="NCP1117LPST33T3G" x="28.575" y="28.575" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.075" y="25.325" size="1.27" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="URL" value="http://www.onsemi.com/pub_link/Collateral/NCP1117LP-D.PDF" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATE" value="1" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HOUSEPART" value="NO" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U1" library="MF_IC_Power" package="SOT-223-3" value="NCP1117LPST33T3G" x="28.575" y="28.575" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.661" y="28.523" size="1.27" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="URL" value="http://www.onsemi.com/pub_link/Collateral/NCP1117LP-D.PDF" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATE" value="1" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HOUSEPART" value="NO" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="F1" library="PP_Passives" package="1206" value="0ZCJ0010FF2E" x="9.525" y="30.353" rot="R90">
 <attribute name="POPULATE" value="1" x="9.525" y="30.353" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1174,7 +1174,10 @@
 <attribute name="MPN" value="MF-RES-0805-360" x="36.195" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HOUSEPART" value="" x="36.195" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$3" library="PP_Aesthetics" package="MF_LOGO_MEDIUM" value="MF_LOGOLOGO_MEDIUM" x="28.194" y="7.112" rot="R90"/>
+<element name="U$3" library="PP_Aesthetics" package="MF_LOGO_MEDIUM" value="MF_LOGOLOGO_MEDIUM" x="28.194" y="7.112" rot="R90">
+<attribute name="POPULATE" value="0" x="28.194" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="28.194" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="SI_PROGRAMMER" library="PP_Connectors" package="5103308-1" value="5103308-1" x="5.588" y="10.922" rot="R90">
 <attribute name="LABEL03" value="GND" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LABEL08" value="" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1188,16 +1191,22 @@
 <attribute name="LABEL06" value="TDO/C2D" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATE" value="1" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="5103308-1" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HOUSEPART" value="" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="5103308-1" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="URL" value="" x="5.588" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TC2030" library="PP_Connectors" package="30306-6002HB" value="30306-6002HB" x="34.036" y="10.922" rot="R270">
 <attribute name="POPULATE" value="1" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LABEL02" value="VCC" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LABEL01" value="GND" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LABEL04" value="C2D" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LABEL03" value="!RST!/C2CK" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LABEL02" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LABEL01" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LABEL04" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LABEL03" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LABEL05" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LABEL06" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="30306-6002HB" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HOUSEPART" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="30306-6002HB" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="URL" value="" x="34.036" y="10.922" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C1" library="MF_Passives" package="C1206" value="10uF" x="15.24" y="27.305" smashed="yes" rot="R180">
 <attribute name="URL" value="" x="15.24" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1266,8 +1275,7 @@
 <wire x1="31.825" y1="28.575" x2="33.909" y2="28.575" width="0.254" layer="1"/>
 <wire x1="33.909" y1="28.575" x2="34.945" y2="29.611" width="0.254" layer="1"/>
 <wire x1="34.945" y1="29.611" x2="34.945" y2="30.48" width="0.254" layer="1"/>
-<wire x1="25.325" y1="28.575" x2="27.175" y2="28.575" width="0.4064" layer="1"/>
-<wire x1="31.825" y1="28.575" x2="27.175" y2="28.575" width="0.4064" layer="1"/>
+<wire x1="31.825" y1="28.575" x2="25.325" y2="28.575" width="0.4064" layer="1"/>
 <contactref element="TC2030" pad="2"/>
 <wire x1="27.175" y1="19.561" x2="30.226" y2="16.51" width="0.4064" layer="1"/>
 <wire x1="30.226" y1="16.51" x2="35.814" y2="16.51" width="0.4064" layer="1"/>

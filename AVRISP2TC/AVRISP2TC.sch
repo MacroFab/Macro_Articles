@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -528,6 +528,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -536,6 +537,7 @@
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="POPULATE" value="0" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="TC2030-NL" constant="no"/>
 </technology>
 </technologies>
@@ -551,6 +553,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -559,6 +562,7 @@
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="POPULATE" value="0" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="TC2030" constant="no"/>
 </technology>
 </technologies>
@@ -574,6 +578,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -582,6 +587,7 @@
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="MPN" value="30306-6002HB" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="30306-6002HB" constant="no"/>
 </technology>
 </technologies>
@@ -608,6 +614,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -620,6 +627,7 @@
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="MPN" value="15-91-1102" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="15-91-1102" constant="no"/>
 </technology>
 </technologies>
@@ -639,6 +647,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -651,6 +660,7 @@
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="MPN" value="GRPB052VWVN-RC" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="GRPB052VWVN-RC" constant="no"/>
 </technology>
 </technologies>
@@ -670,6 +680,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -682,6 +693,7 @@
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="MPN" value="5103308-1" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="5103308-1" constant="no"/>
 </technology>
 </technologies>

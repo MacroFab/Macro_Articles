@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -200,15 +200,15 @@
 <packages>
 <package name="SOT-223-3">
 <description>&lt;b&gt;Description:&lt;/b&gt; Standard SOT-223-3 Package.&lt;br/&gt;</description>
-<smd name="P$1" x="0" y="3.25" dx="4" dy="1.5" layer="1"/>
-<smd name="P$2" x="-2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$3" x="0" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$4" x="2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3.25" y1="-1.75" x2="-3.25" y2="1.75" width="0.127" layer="21"/>
-<text x="-3.25" y="4.5" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<smd name="P$1" x="3.25" y="0" dx="4" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$2" x="-3.25" y="2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$3" x="-3.25" y="0" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$4" x="-3.25" y="-2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.127" layer="21"/>
+<text x="4.5" y="3.25" size="1.016" layer="25" font="vector" ratio="16" rot="R270">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -1109,6 +1109,9 @@
 <attribute name="NAME" x="29.845" y="21.336" size="0.8128" layer="25" font="vector" ratio="16"/>
 <attribute name="MPN" value="5103308-1" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="1" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="5103308-1" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HOUSEPART" value="" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="URL" value="" x="33.655" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="USB_BLASTER" library="PP_Connectors" package="5103308-1" value="5103308-1" x="5.08" y="10.795" smashed="yes" rot="R270">
 <attribute name="LABEL09" value="TDI" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1124,6 +1127,9 @@
 <attribute name="NAME" x="1.143" y="21.336" size="0.8128" layer="25" font="vector" ratio="16"/>
 <attribute name="MPN" value="5103308-1" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="1" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="5103308-1" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HOUSEPART" value="" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="URL" value="" x="5.08" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="USB" library="MF_Connectors" package="MICROUSB-RIGHT" value="MF-CON-MICROUSB-RIGHT" x="2.921" y="28.575" rot="R270">
 <attribute name="MPN" value="MF-CON-MICROUSB-RIGHT" x="2.921" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1132,13 +1138,13 @@
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-CON-MICROUSB-RIGHT" x="2.921" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="MF-CON-MICROUSB-RIGHT" x="2.921" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U1" library="MF_IC_Power" package="SOT-223-3" value="NCP1117LPST33T3G" x="28.575" y="28.575" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.075" y="25.325" size="1.27" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="MPN" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HOUSEPART" value="NO" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATE" value="1" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="URL" value="http://www.onsemi.com/pub_link/Collateral/NCP1117LP-D.PDF" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U1" library="MF_IC_Power" package="SOT-223-3" value="NCP1117LPST33T3G" x="28.575" y="28.575" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.407" y="27.761" size="1.27" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="MPN" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HOUSEPART" value="NO" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATE" value="1" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="URL" value="http://www.onsemi.com/pub_link/Collateral/NCP1117LP-D.PDF" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="NCP1117LPST33T3G" x="28.575" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="F1" library="PP_Passives" package="1206" value="0ZCJ0010FF2E" x="9.525" y="30.353" rot="R90">
 <attribute name="POPULATE" value="1" x="9.525" y="30.353" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1184,7 +1190,10 @@
 <attribute name="URL" value="" x="36.195" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="" x="36.195" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$3" library="PP_Aesthetics" package="MF_LOGO_MEDIUM" value="MF_LOGOLOGO_MEDIUM" x="28.194" y="7.112" rot="R90"/>
+<element name="U$3" library="PP_Aesthetics" package="MF_LOGO_MEDIUM" value="MF_LOGOLOGO_MEDIUM" x="28.194" y="7.112" rot="R90">
+<attribute name="POPULATE" value="0" x="28.194" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="28.194" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C1" library="MF_Passives" package="C1206" value="10uF" x="15.24" y="27.305" smashed="yes" rot="R180">
 <attribute name="TOLERANCE" value="" x="15.24" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIELECTRIC" value="" x="15.24" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
