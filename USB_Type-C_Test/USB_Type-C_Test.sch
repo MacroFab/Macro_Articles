@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -302,6 +302,85 @@
 <text x="-6.35" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL02</text>
 <text x="-8.89" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-right">&gt;LABEL01</text>
 </package>
+<package name="10137061-00021LF">
+<smd name="A6" x="-0.25" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A7" x="0.25" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A8" x="0.75" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A9" x="1.25" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A10" x="1.75" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A11" x="2.25" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A12" x="2.75" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A5" x="-0.75" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A4" x="-1.25" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A3" x="-1.75" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A2" x="-2.25" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="A1" x="-2.75" y="0.56" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="S_T2" x="-4.13" y="-1.25" dx="1.6" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="S_T3" x="4.13" y="-1.25" dx="1.6" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="S_T4" x="4.49" y="-5.7" dx="1.6" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="S_B2" x="-4.13" y="-1.25" dx="1.6" dy="1" layer="16" roundness="100" rot="R90"/>
+<smd name="S_B3" x="4.13" y="-1.25" dx="1.6" dy="1" layer="16" roundness="100" rot="R90"/>
+<smd name="S_B4" x="4.49" y="-5.7" dx="1.6" dy="1" layer="16" roundness="100" rot="R90"/>
+<smd name="S_T1" x="-4.49" y="-5.7" dx="1.6" dy="1" layer="1" roundness="100" rot="R90"/>
+<smd name="S_B1" x="-4.49" y="-5.7" dx="1.6" dy="1" layer="16" roundness="100" rot="R90"/>
+<text x="4.89" y="-7.05" size="0.6096" layer="49" font="vector" rot="SR0" align="center-left">&lt;- EDGE OF PCB</text>
+<text x="-4.825" y="2.825" size="0.8128" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+<pad name="B1" x="2.8" y="-0.65" drill="0.4" diameter="0.654"/>
+<pad name="B2" x="2.4" y="-1.35" drill="0.4" diameter="0.654"/>
+<pad name="B3" x="1.6" y="-1.35" drill="0.4" diameter="0.654"/>
+<pad name="B4" x="1.2" y="-0.65" drill="0.4" diameter="0.654"/>
+<pad name="B5" x="0.8" y="-1.35" drill="0.4" diameter="0.654"/>
+<pad name="B6" x="0.4" y="-0.65" drill="0.4" diameter="0.654"/>
+<pad name="B7" x="-0.4" y="-0.65" drill="0.4" diameter="0.654"/>
+<pad name="B8" x="-0.8" y="-1.35" drill="0.4" diameter="0.654"/>
+<pad name="B9" x="-1.2" y="-0.65" drill="0.4" diameter="0.654"/>
+<pad name="B10" x="-1.6" y="-1.35" drill="0.4" diameter="0.654"/>
+<pad name="B11" x="-2.4" y="-1.35" drill="0.4" diameter="0.654"/>
+<pad name="B12" x="-2.8" y="-0.65" drill="0.4" diameter="0.654"/>
+<hole x="-3.6" y="0" drill="0.65"/>
+<wire x1="4.49" y1="-6.25" x2="4.24" y2="-6" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.24" y1="-6" x2="4.24" y2="-5.4" width="0.025" layer="46"/>
+<wire x1="4.24" y1="-5.4" x2="4.49" y2="-5.15" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.49" y1="-5.15" x2="4.74" y2="-5.4" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.74" y1="-5.4" x2="4.74" y2="-6" width="0.025" layer="46"/>
+<wire x1="4.74" y1="-6" x2="4.49" y2="-6.25" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.74" y1="-5.4" x2="-4.49" y2="-5.15" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.49" y1="-5.15" x2="4.74" y2="-5.4" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.49" y1="-5.15" x2="-4.24" y2="-5.4" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.74" y1="-6" x2="-4.74" y2="-5.4" width="0.025" layer="46"/>
+<wire x1="-4.24" y1="-5.4" x2="-4.24" y2="-6" width="0.025" layer="46"/>
+<wire x1="4.49" y1="-6.25" x2="4.24" y2="-6" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.49" y1="-6.25" x2="-4.74" y2="-6" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.24" y1="-6" x2="-4.49" y2="-6.25" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.13" y1="-1.8" x2="-4.38" y2="-1.55" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.38" y1="-0.95" x2="-4.13" y2="-0.7" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.13" y1="-0.7" x2="-3.88" y2="-0.95" width="0.025" layer="46" curve="-90"/>
+<wire x1="-3.88" y1="-0.95" x2="-3.88" y2="-1.55" width="0.025" layer="46"/>
+<wire x1="-3.88" y1="-1.55" x2="-4.13" y2="-1.8" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.13" y1="-0.7" x2="4.38" y2="-0.95" width="0.025" layer="46" curve="-90"/>
+<wire x1="3.88" y1="-0.95" x2="4.13" y2="-0.7" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.38" y1="-1.55" x2="-4.38" y2="-0.95" width="0.025" layer="46"/>
+<wire x1="3.88" y1="-1.55" x2="3.88" y2="-0.95" width="0.025" layer="46"/>
+<wire x1="4.38" y1="-0.95" x2="4.38" y2="-1.55" width="0.025" layer="46"/>
+<wire x1="4.38" y1="-1.55" x2="4.13" y2="-1.8" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.13" y1="-1.8" x2="3.88" y2="-1.55" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.825" y1="-8.55" x2="4.825" y2="-8.55" width="0.127" layer="21"/>
+<wire x1="4.825" y1="-8.55" x2="4.825" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="4.825" y1="-4.7" x2="4.825" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="1.65" x2="-4.825" y2="-4.7" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="-6.7" x2="-4.825" y2="-8.55" width="0.127" layer="21"/>
+<text x="6.56" y="-8.255" size="0.6096" layer="49" font="vector" align="center-left">7.05MM </text>
+<smd name="S_T5" x="-3.37" y="1.55" dx="0.5" dy="0.3" layer="1"/>
+<smd name="S_T6" x="-1.25" y="1.55" dx="0.5" dy="0.3" layer="1"/>
+<smd name="S_T7" x="1.25" y="1.55" dx="0.5" dy="0.3" layer="1"/>
+<smd name="S_T8" x="3.38" y="1.55" dx="0.5" dy="0.3" layer="1"/>
+<wire x1="-4.825" y1="1.65" x2="-3.85" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-2.9" y1="1.65" x2="-1.7" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.65" x2="0.8" y2="1.65" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.65" x2="2.9" y2="1.65" width="0.127" layer="21"/>
+<wire x1="3.85" y1="1.65" x2="4.825" y2="1.65" width="0.127" layer="21"/>
+<hole x="3.6" y="0" drill="0.65"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB_TYPE-C">
@@ -453,6 +532,36 @@ Type C</text>
 <connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
 </connects>
 <technologies>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_10137061-00021LF" package="10137061-00021LF">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D+" pad="A6 B6"/>
+<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="G$1" pin="RX1+" pad="B11"/>
+<connect gate="G$1" pin="RX1-" pad="B10"/>
+<connect gate="G$1" pin="RX2+" pad="A11"/>
+<connect gate="G$1" pin="RX2-" pad="A10"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHLD" pad="S_B1 S_B2 S_B3 S_B4 S_T1 S_T2 S_T3 S_T4 S_T5 S_T6 S_T7 S_T8"/>
+<connect gate="G$1" pin="TX1+" pad="A2"/>
+<connect gate="G$1" pin="TX1-" pad="A3"/>
+<connect gate="G$1" pin="TX2+" pad="B2"/>
+<connect gate="G$1" pin="TX2-" pad="B3"/>
+<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
+</connects>
+<technologies>
 <technology name=""/>
 </technologies>
 </device>
@@ -468,7 +577,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_KEYSTONE_5115-5119" package="KEYSTONE_5115-5119">
@@ -476,7 +591,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_ROUND_1MM" package="ROUND_TP">
@@ -484,7 +605,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_ROUND_100MIL" package="100MIL_TP">
@@ -492,7 +619,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -515,6 +648,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -523,6 +657,10 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -539,6 +677,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -547,6 +686,10 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -563,6 +706,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -571,6 +715,10 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2410,33 +2558,33 @@ Type C</text>
 </library>
 <library name="MF_Frequency_Control">
 <packages>
-<package name="5MMX3.2MM">
-<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for 5MM x 3.2MM Crystals.&lt;br/&gt;</description>
-<smd name="P$1" x="-1.85" y="-1.1" dx="2" dy="1.2" layer="1"/>
-<smd name="P$2" x="1.85" y="-1.1" dx="2" dy="1.2" layer="1"/>
-<smd name="P$3" x="1.85" y="1.1" dx="2" dy="1.2" layer="1"/>
-<smd name="P$4" x="-1.85" y="1.1" dx="2" dy="1.2" layer="1"/>
-<wire x1="-0.6" y1="1.6" x2="0.6" y2="1.6" width="0.127" layer="21"/>
-<wire x1="2.5" y1="0.2" x2="2.5" y2="-0.2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="0.2" x2="-2.5" y2="-0.2" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-1.6" x2="0.6" y2="-1.6" width="0.127" layer="21"/>
-<text x="-2.8" y="2.2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
-</package>
 <package name="7MMX5MM">
 <description>&lt;b&gt;Description:&lt;/b&gt; Footprint for 7MM x 5MM Crystals.&lt;br/&gt;</description>
-<smd name="P$1" x="-3.15" y="-1.27" dx="2.2" dy="1.4" layer="1"/>
-<smd name="P$2" x="-3.15" y="1.27" dx="2.2" dy="1.4" layer="1"/>
-<smd name="P$3" x="3.15" y="1.27" dx="2.2" dy="1.4" layer="1"/>
-<smd name="P$4" x="3.05" y="-1.27" dx="2.4" dy="1.4" layer="1"/>
-<wire x1="-3.6" y1="2.6" x2="3.6" y2="2.6" width="0.127" layer="21"/>
-<wire x1="3.6" y1="2.6" x2="3.6" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="2.6" x2="-3.6" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-2.2" x2="-3.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-2.6" x2="3.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-2.6" x2="3.6" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="3.6" y1="0.2" x2="3.6" y2="-0.2" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="0.2" x2="-3.6" y2="-0.2" width="0.127" layer="21"/>
-<text x="-3.6" y="3" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<smd name="P$1" x="-1.27" y="3.15" dx="2.2" dy="1.4" layer="1" rot="R270"/>
+<smd name="P$2" x="1.27" y="3.15" dx="2.2" dy="1.4" layer="1" rot="R270"/>
+<smd name="P$3" x="1.27" y="-3.15" dx="2.2" dy="1.4" layer="1" rot="R270"/>
+<smd name="P$4" x="-1.27" y="-3.05" dx="2.4" dy="1.4" layer="1" rot="R270"/>
+<wire x1="2.6" y1="3.6" x2="2.6" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-3.6" x2="2.2" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="3.6" x2="2.2" y2="3.6" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="3.6" x2="-2.6" y2="3.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="3.6" x2="-2.6" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-3.6" x2="-2.2" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-3.6" x2="-0.2" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="0.2" y1="3.6" x2="-0.2" y2="3.6" width="0.127" layer="21"/>
+<text x="-2.6" y="4.572" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="5MMX3.2MM">
+<description>&lt;b&gt;Description:&lt;/b&gt; Footprint for 5MM x 3.2MM Crystals.&lt;br/&gt;</description>
+<smd name="P$1" x="-1.1" y="1.85" dx="2" dy="1.2" layer="1" rot="R270"/>
+<smd name="P$2" x="-1.1" y="-1.85" dx="2" dy="1.2" layer="1" rot="R270"/>
+<smd name="P$3" x="1.1" y="-1.85" dx="2" dy="1.2" layer="1" rot="R270"/>
+<smd name="P$4" x="1.1" y="1.85" dx="2" dy="1.2" layer="1" rot="R270"/>
+<wire x1="1.6" y1="0.6" x2="1.6" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-2.5" x2="-0.2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="0.2" y1="2.5" x2="-0.2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.6" x2="-1.6" y2="-0.6" width="0.127" layer="21"/>
+<text x="-1.6" y="3.175" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2461,14 +2609,14 @@ Type C</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XTL" prefix="X" uservalue="yes">
+<deviceset name="CYRSTAL_GND" prefix="X" uservalue="yes">
 <description>&lt;b&gt;Library:&lt;/b&gt;  MF_Frequency_Control&lt;br/&gt;
-&lt;b&gt;Description:&lt;/b&gt; Device for Cyrstal Oscillators. Manufacture part number (MFG#) can be added via Attributes.&lt;br/&gt;</description>
+&lt;b&gt;Description:&lt;/b&gt; Device for two functional pin Cyrstal Oscillators and a ground. &lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_GND" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_5MMX3.2MM" package="5MMX3.2MM">
+<device name="_ABMM" package="7MMX5MM">
 <connects>
 <connect gate="G$1" pin="GND" pad="P$2 P$4"/>
 <connect gate="G$1" pin="X0" pad="P$1"/>
@@ -2476,18 +2624,28 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG#" value="N/A" constant="no"/>
+<attribute name="HOUSEPART" value="NO" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="http://www.abracon.com/Resonators/ABMM.pdf" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="_7MMX5MM" package="7MMX5MM">
+<device name="_ABM3B" package="5MMX3.2MM">
 <connects>
 <connect gate="G$1" pin="GND" pad="P$2 P$4"/>
 <connect gate="G$1" pin="X0" pad="P$1"/>
 <connect gate="G$1" pin="X1" pad="P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="NO" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="http://www.abracon.com/Resonators/abm3b.pdf" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2498,15 +2656,15 @@ Type C</text>
 <packages>
 <package name="SOT-223-3">
 <description>&lt;b&gt;Description:&lt;/b&gt; Standard SOT-223-3 Package.&lt;br/&gt;</description>
-<smd name="P$1" x="0" y="3.25" dx="4" dy="1.5" layer="1"/>
-<smd name="P$2" x="-2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$3" x="0" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<smd name="P$4" x="2.3" y="-3.25" dx="1" dy="1.5" layer="1"/>
-<wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3.25" y1="-1.75" x2="-3.25" y2="1.75" width="0.127" layer="21"/>
-<text x="-3.25" y="4.5" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<smd name="P$1" x="3.25" y="0" dx="4" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$2" x="-3.25" y="2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$3" x="-3.25" y="0" dx="1" dy="1.5" layer="1" rot="R270"/>
+<smd name="P$4" x="-3.25" y="-2.3" dx="1" dy="1.5" layer="1" rot="R270"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.127" layer="21"/>
+<text x="4.5" y="3.25" size="1.016" layer="25" font="vector" ratio="16" rot="R270">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2542,7 +2700,13 @@ Type C</text>
 <connect gate="G$1" pin="VOUT" pad="P$1 P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="NO" constant="no"/>
+<attribute name="MPN" value="NCP1117LPST33T3G" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="http://www.onsemi.com/pub_link/Collateral/NCP1117LP-D.PDF" constant="no"/>
+<attribute name="VALUE" value="NCP1117LPST33T3G" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="ST50T3G" package="SOT-223-3">
@@ -2552,7 +2716,13 @@ Type C</text>
 <connect gate="G$1" pin="VOUT" pad="P$1 P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="NO" constant="no"/>
+<attribute name="MPN" value="NCP1117LPST50T3G" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="http://www.onsemi.com/pub_link/Collateral/NCP1117LP-D.PDF" constant="no"/>
+<attribute name="VALUE" value="NCP1117LPST50T3G" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="STADT3G" package="SOT-223-3">
@@ -2562,7 +2732,13 @@ Type C</text>
 <connect gate="G$1" pin="VOUT" pad="P$1 P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="NO" constant="no"/>
+<attribute name="MPN" value="NCP1117LPSTADT3G" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="http://www.onsemi.com/pub_link/Collateral/NCP1117LP-D.PDF" constant="no"/>
+<attribute name="VALUE" value="NCP1117LPSTADT3G" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2586,9 +2762,9 @@ Type C</text>
 <wire x1="0" y1="-25.4" x2="96.592" y2="-25.4" width="0.1016" layer="94"/>
 <wire x1="96.592" y1="-25.4" x2="127" y2="-25.4" width="0.1016" layer="94"/>
 <wire x1="127" y1="-20.272" x2="127" y2="-25.4" width="0.1016" layer="94"/>
-<wire x1="127" y1="0.048" x2="86.432" y2="0" width="0.1016" layer="94"/>
+<wire x1="127" y1="0" x2="86.432" y2="0" width="0.1016" layer="94"/>
 <wire x1="86.432" y1="0" x2="0" y2="0" width="0.1016" layer="94"/>
-<wire x1="127" y1="0.048" x2="127" y2="-20.272" width="0.1016" layer="94"/>
+<wire x1="127" y1="0" x2="127" y2="-20.272" width="0.1016" layer="94"/>
 <text x="1.342" y="-24.082" size="2.54" layer="94" font="vector">Date:</text>
 <text x="12.772" y="-24.082" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="97.862" y="-24.082" size="2.54" layer="94" font="vector">Sheet:</text>
@@ -3052,7 +3228,9 @@ Type C</text>
 </class>
 </classes>
 <parts>
-<part name="J1" library="PP_Connectors" deviceset="USB_TYPE-C" device="_105450-0101" value="105450-0101"/>
+<part name="J1" library="PP_Connectors" deviceset="USB_TYPE-C" device="_105450-0101" value="105450-0101">
+<attribute name="MPN" value="105450-0101"/>
+</part>
 <part name="U2" library="PP_DigitalIC" deviceset="FT230X" device="Q" value="FT230XQ-R"/>
 <part name="C1" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
 <part name="C2" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
@@ -3079,33 +3257,33 @@ Type C</text>
 <part name="L1" library="PP_Passives" deviceset="INDUCTOR" device="_0603" value="MI0603K300R-10"/>
 <part name="TX/RX" library="PP_LED" deviceset="LED_SINGLE" device="_0805" value="MF-LED-0805-RED"/>
 <part name="3.3V" library="PP_LED" deviceset="LED_SINGLE" device="_0805" value="MF-LED-0805-RED"/>
-<part name="X1" library="MF_Frequency_Control" deviceset="XTL" device="_7MMX5MM" value="ABMM-6.000MHZ-B2-T"/>
-<part name="U6" library="MF_IC_Power" deviceset="NCP1117LP" device="ST33T3G"/>
+<part name="U6" library="MF_IC_Power" deviceset="NCP1117LP" device="ST33T3G" value="NCP1117LPST33T3G"/>
 <part name="U1" library="PP_DigitalIC" deviceset="P8X32A" device="-Q44" value="P8X32A-Q44"/>
 <part name="L2" library="PP_Passives" deviceset="INDUCTOR" device="_0603" value="MI0603K300R-10"/>
 <part name="C18" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="47pF"/>
 <part name="C19" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="47pF"/>
 <part name="R3" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="5.1K"/>
 <part name="R6" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="5.1K"/>
-<part name="TP1" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
-<part name="TP3" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
+<part name="TP1" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119"/>
+<part name="TP3" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119"/>
 <part name="C14" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
 <part name="C8" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_1206" value="10uF"/>
 <part name="C9" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_1206" value="10uF"/>
 <part name="C15" library="PP_Passives" deviceset="CAPACITOR_POLARIZED" device="_5MM_SMD" value="4.7uF"/>
-<part name="TP4" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
+<part name="TP4" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119"/>
 <part name="VBUS_SW" library="PP_LED" deviceset="LED_SINGLE" device="_0805" value="MF-LED-0805-RED"/>
 <part name="VBUS" library="PP_LED" deviceset="LED_SINGLE" device="_0805" value="MF-LED-0805-RED"/>
 <part name="R7" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="330"/>
 <part name="R8" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="330"/>
-<part name="TP5" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
+<part name="TP5" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119"/>
 <part name="R9" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="150"/>
 <part name="BCD_CHARGER" library="PP_LED" deviceset="LED_SINGLE" device="_0805" value="MF-LED-0805-RED"/>
 <part name="J2" library="PP_Connectors" deviceset="CON_01X08" device="_2.54MM_PIN_HEADER"/>
-<part name="FRAME1" library="MF_Aesthetics" deviceset="MF_FRAME" device="DEFAULT">
+<part name="FRAME1" library="MF_Aesthetics" deviceset="MF_FRAME" device="DEFAULT" value="">
 <attribute name="DNAME" value="Parker Dillmann"/>
 <attribute name="REVNUM" value="REV: 1"/>
 </part>
+<part name="X1" library="MF_Frequency_Control" deviceset="CYRSTAL_GND" device="_ABMM" value="ABMM-6.000MHZ-B2-T"/>
 </parts>
 <sheets>
 <sheet>
@@ -3149,10 +3327,6 @@ Type C</text>
 <instance part="L1" gate="G$1" x="-96.52" y="106.68"/>
 <instance part="TX/RX" gate="G$1" x="-132.08" y="10.16"/>
 <instance part="3.3V" gate="G$1" x="-132.08" y="20.32"/>
-<instance part="X1" gate="G$1" x="-12.7" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="-10.16" y="43.18" size="0.8128" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="-10.16" y="40.64" size="0.8128" layer="96" font="vector"/>
-</instance>
 <instance part="U6" gate="G$1" x="83.82" y="106.68"/>
 <instance part="U1" gate="G$1" x="-40.64" y="35.56"/>
 <instance part="L2" gate="G$1" x="-96.52" y="60.96"/>
@@ -3176,6 +3350,10 @@ Type C</text>
 <instance part="BCD_CHARGER" gate="G$1" x="-132.08" y="0"/>
 <instance part="J2" gate="G$1" x="-86.36" y="0" rot="MR0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="X1" gate="G$1" x="-12.7" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="-10.16" y="45.72" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="-10.16" y="43.18" size="1.016" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3189,13 +3367,13 @@ Type C</text>
 <segment>
 <wire x1="-43.18" y1="35.56" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
 <label x="-55.88" y="35.56" size="1.016" layer="95" font="vector"/>
-<pinref part="X1" gate="G$1" pin="GND"/>
 <wire x1="-50.8" y1="35.56" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="43.18" x2="-12.7" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="45.72" x2="-50.8" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="45.72" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-50.8" y="35.56"/>
 <pinref part="U1" gate="G$1" pin="!BOE"/>
+<pinref part="X1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <label x="-116.84" y="63.5" size="1.016" layer="95" font="vector"/>
@@ -3588,8 +3766,8 @@ Type C</text>
 <wire x1="-20.32" y1="35.56" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="38.1" x2="-17.78" y2="38.1" width="0.1524" layer="91"/>
 <label x="-20.32" y="38.1" size="1.016" layer="95" font="vector"/>
-<pinref part="X1" gate="G$1" pin="X1"/>
 <pinref part="U1" gate="G$1" pin="X0"/>
+<pinref part="X1" gate="G$1" pin="X1"/>
 </segment>
 </net>
 <net name="X1" class="0">
@@ -3598,8 +3776,8 @@ Type C</text>
 <wire x1="-5.08" y1="33.02" x2="-5.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
 <label x="-20.32" y="33.02" size="1.016" layer="95" font="vector"/>
-<pinref part="X1" gate="G$1" pin="X0"/>
 <pinref part="U1" gate="G$1" pin="X1"/>
+<pinref part="X1" gate="G$1" pin="X0"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
