@@ -587,6 +587,19 @@
 <attribute name="URL" value="http://www.tag-connect.com/TC2030-PKT" constant="no"/>
 <attribute name="VALUE" value="TC2030-PKT" constant="no"/>
 </technology>
+<technology name="_SILABS2TC">
+<attribute name="HOUSEPART" value="NO" constant="no"/>
+<attribute name="LABEL01" value="GND" constant="no"/>
+<attribute name="LABEL02" value="VCC" constant="no"/>
+<attribute name="LABEL03" value="C2CK" constant="no"/>
+<attribute name="LABEL04" value="C2D" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="MPN" value="TC2030-IDC" constant="no"/>
+<attribute name="POPULATE" value="0" constant="no"/>
+<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC" constant="no"/>
+<attribute name="VALUE" value="TC2030-IDC" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_TC2030-IDC-NL" package="TC2030-IDC-NL">
@@ -650,6 +663,19 @@
 <attribute name="POPULATE" value="0" constant="no"/>
 <attribute name="URL" value="http://www.tag-connect.com/TC2030-PKT-NL" constant="no"/>
 <attribute name="VALUE" value="TC2030-PKT-NL " constant="no"/>
+</technology>
+<technology name="_SILABS2TC">
+<attribute name="HOUSEPART" value="NO" constant="no"/>
+<attribute name="LABEL01" value="GND" constant="no"/>
+<attribute name="LABEL02" value="VCC" constant="no"/>
+<attribute name="LABEL03" value="C2CK" constant="no"/>
+<attribute name="LABEL04" value="C2D" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="MPN" value="TC2030-IDC-NL" constant="no"/>
+<attribute name="POPULATE" value="0" constant="no"/>
+<attribute name="URL" value="http://www.tag-connect.com/TC2030-IDC-NL" constant="no"/>
+<attribute name="VALUE" value="TC2030-IDC-NL" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1069,9 +1095,9 @@
 <wire x1="0" y1="-25.4" x2="96.592" y2="-25.4" width="0.1016" layer="94"/>
 <wire x1="96.592" y1="-25.4" x2="127" y2="-25.4" width="0.1016" layer="94"/>
 <wire x1="127" y1="-20.272" x2="127" y2="-25.4" width="0.1016" layer="94"/>
-<wire x1="127" y1="0.048" x2="86.432" y2="0" width="0.1016" layer="94"/>
+<wire x1="127" y1="0" x2="86.432" y2="0" width="0.1016" layer="94"/>
 <wire x1="86.432" y1="0" x2="0" y2="0" width="0.1016" layer="94"/>
-<wire x1="127" y1="0.048" x2="127" y2="-20.272" width="0.1016" layer="94"/>
+<wire x1="127" y1="0" x2="127" y2="-20.272" width="0.1016" layer="94"/>
 <text x="1.342" y="-24.082" size="2.54" layer="94" font="vector">Date:</text>
 <text x="12.772" y="-24.082" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
 <text x="97.862" y="-24.082" size="2.54" layer="94" font="vector">Sheet:</text>

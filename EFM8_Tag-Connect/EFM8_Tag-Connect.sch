@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -235,7 +235,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EFM8BB10F(2/4/8)G-A-QFN20" uservalue="yes">
+<deviceset name="EFM8BB10F(2/4/8)G-A-QFN20" prefix="U" uservalue="yes">
 <description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; EFM8BB10F(2/4/8)G-A-QFN20&lt;br/&gt;
 &lt;b&gt;Manufacturer:&lt;/b&gt; Silicon Labs&lt;br/&gt;
 &lt;b&gt;Description:&lt;/b&gt; Busy Bee 8-bit Microcontrollers - MCU (2/4/8)kB / (256/512)B RAM 12b ADC &lt;br/&gt;</description>
@@ -1869,7 +1869,7 @@
 </class>
 </classes>
 <parts>
-<part name="U1" library="MF_IC_Digital" deviceset="EFM8BB10F(2/4/8)G-A-QFN20" device="" value="EFM8BB10F2G-A-QFN20">
+<part name="U1" library="MF_IC_Digital" deviceset="EFM8BB10F(2/4/8)G-A-QFN20" device="">
 <attribute name="MPN" value="EFM8BB10F2G-A-QFN20"/>
 </part>
 <part name="TC1" library="MF_Connectors" deviceset="CON_02X03" device="_TC2030-IDC" technology="_SILABS2TC" value="TC2030-IDC"/>
