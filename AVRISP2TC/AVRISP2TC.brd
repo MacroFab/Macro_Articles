@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -1148,7 +1148,7 @@
 </element>
 <element name="FRAME1" library="MF_Aesthetics" package="MF_FRAME_DEFAULT" value="" x="10.16" y="25.146">
 <attribute name="DNAME" value="Parker Dillmann" x="10.16" y="25.146" size="1.778" layer="27" display="off"/>
-<attribute name="REVNUM" value="REV: 1" x="10.16" y="25.146" size="1.778" layer="27" display="off"/>
+<attribute name="REVNUM" value="REV: 2" x="10.16" y="25.146" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="10.16" y="25.146" size="1.778" layer="27" display="off"/>
 <attribute name="HOUSEPART" value="0" x="10.16" y="25.146" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="0" x="10.16" y="25.146" size="1.778" layer="27" display="off"/>
@@ -1384,13 +1384,15 @@
 <signal name="MISO">
 <contactref element="6PIN_ISP" pad="1"/>
 <contactref element="TC2030" pad="1"/>
-<contactref element="10PIN_ISP" pad="1"/>
-<wire x1="6.35" y1="5.715" x2="15.748" y2="5.715" width="0.254" layer="1"/>
 <wire x1="16.256" y1="5.715" x2="34.163" y2="5.715" width="0.254" layer="1"/>
 <wire x1="34.163" y1="5.715" x2="34.925" y2="6.477" width="0.254" layer="1"/>
 <wire x1="34.925" y1="6.477" x2="34.925" y2="8.255" width="0.254" layer="1"/>
 <wire x1="16.256" y1="8.255" x2="16.256" y2="5.715" width="0.254" layer="1"/>
-<wire x1="16.256" y1="5.715" x2="15.748" y2="5.715" width="0.254" layer="1"/>
+<contactref element="10PIN_ISP" pad="9"/>
+<wire x1="6.35" y1="15.875" x2="16.637" y2="15.875" width="0.254" layer="16"/>
+<wire x1="16.637" y1="15.875" x2="18.542" y2="13.97" width="0.254" layer="16"/>
+<wire x1="18.542" y1="13.97" x2="18.542" y2="10.541" width="0.254" layer="16"/>
+<wire x1="18.542" y1="10.541" x2="16.256" y2="8.255" width="0.254" layer="16"/>
 </signal>
 <signal name="SCK">
 <contactref element="6PIN_ISP" pad="3"/>
@@ -1428,10 +1430,6 @@
 <signal name="MOSI">
 <contactref element="TC2030" pad="4"/>
 <contactref element="6PIN_ISP" pad="4"/>
-<contactref element="10PIN_ISP" pad="9"/>
-<wire x1="6.35" y1="15.875" x2="7.239" y2="15.875" width="0.254" layer="1"/>
-<wire x1="7.239" y1="15.875" x2="12.319" y2="10.795" width="0.254" layer="1"/>
-<wire x1="12.319" y1="10.795" x2="13.716" y2="10.795" width="0.254" layer="1"/>
 <wire x1="13.716" y1="10.795" x2="13.716" y2="11.684" width="0.254" layer="1"/>
 <wire x1="13.716" y1="11.684" x2="13.97" y2="11.938" width="0.254" layer="1"/>
 <wire x1="13.97" y1="11.938" x2="14.478" y2="11.938" width="0.254" layer="1"/>
@@ -1444,6 +1442,9 @@
 <wire x1="36.83" y1="10.414" x2="36.068" y2="9.652" width="0.254" layer="1"/>
 <wire x1="36.068" y1="9.652" x2="33.528" y2="9.652" width="0.254" layer="1"/>
 <wire x1="33.528" y1="9.652" x2="32.385" y2="10.795" width="0.254" layer="1"/>
+<contactref element="10PIN_ISP" pad="1"/>
+<wire x1="6.35" y1="5.715" x2="8.636" y2="5.715" width="0.254" layer="16"/>
+<wire x1="8.636" y1="5.715" x2="13.716" y2="10.795" width="0.254" layer="16"/>
 </signal>
 </signals>
 <errors>

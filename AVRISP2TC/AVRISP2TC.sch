@@ -5197,7 +5197,7 @@
 </part>
 <part name="FRAME1" library="MF_Aesthetics" deviceset="MF_FRAME" device="DEFAULT" value="">
 <attribute name="DNAME" value="Parker Dillmann"/>
-<attribute name="REVNUM" value="REV: 1"/>
+<attribute name="REVNUM" value="REV: 2"/>
 </part>
 <part name="U$1" library="MF_Aesthetics" deviceset="GND_RAIL" device=""/>
 <part name="U$2" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="3.3V"/>
@@ -5397,14 +5397,14 @@
 <segment>
 <pinref part="6PIN_ISP" gate="G$1" pin="PIN1"/>
 <wire x1="45.72" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="58.42" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="TC2030" gate="G$1" pin="PIN1"/>
-<wire x1="33.02" y1="45.72" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="58.42" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="35.56" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="10PIN_ISP" gate="G$1" pin="PIN1"/>
-<wire x1="45.72" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
-<junction x="33.02" y="45.72"/>
 <label x="40.64" y="58.42" size="1.016" layer="95" font="vector"/>
+<pinref part="10PIN_ISP" gate="G$1" pin="PIN9"/>
+<wire x1="45.72" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
+<junction x="33.02" y="35.56"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -5439,16 +5439,16 @@
 <segment>
 <pinref part="TC2030" gate="G$1" pin="PIN4"/>
 <wire x1="81.28" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="25.4" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="6PIN_ISP" gate="G$1" pin="PIN4"/>
-<wire x1="91.44" y1="33.02" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="25.4" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="50.8" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="10PIN_ISP" gate="G$1" pin="PIN9"/>
-<wire x1="45.72" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="35.56" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
-<junction x="91.44" y="33.02"/>
 <label x="83.82" y="55.88" size="1.016" layer="95" font="vector"/>
+<pinref part="10PIN_ISP" gate="G$1" pin="PIN1"/>
+<wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="45.72" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<junction x="91.44" y="50.8"/>
 </segment>
 </net>
 </nets>
