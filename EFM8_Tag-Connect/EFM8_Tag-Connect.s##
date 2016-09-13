@@ -1869,7 +1869,7 @@
 </class>
 </classes>
 <parts>
-<part name="U1" library="MF_IC_Digital" deviceset="EFM8BB10F(2/4/8)G-A-QFN20" device="" value="EFM8BB10F2G-A-QFN20">
+<part name="U1" library="MF_IC_Digital" deviceset="EFM8BB10F(2/4/8)G-A-QFN20" device="">
 <attribute name="MPN" value="EFM8BB10F2G-A-QFN20"/>
 </part>
 <part name="TC1" library="MF_Connectors" deviceset="CON_02X03" device="_TC2030-IDC" technology="_SILABS2TC" value="TC2030-IDC"/>

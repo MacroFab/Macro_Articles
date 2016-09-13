@@ -601,7 +601,7 @@
 <attribute name="LABEL01" value="GND" x="4.064" y="2.54" size="1.016" layer="21" font="vector" ratio="16" rot="R270" align="center-left" display="off"/>
 <attribute name="NAME" x="8.763" y="8.636" size="1.016" layer="25" font="vector" ratio="16" rot="R180" align="center"/>
 </element>
-<element name="U1" library="MF_IC_Digital" package="EFM8BB10F(2/4/8)G-A-QFN20" value="" x="16.256" y="5.842" smashed="yes">
+<element name="U1" library="MF_IC_Digital" package="EFM8BB10F(2/4/8)G-A-QFN20" value="EFM8BB10F2G-A-QFN20" x="16.256" y="5.842" smashed="yes">
 <attribute name="HOUSEPART" value="NO" x="16.256" y="5.842" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="EFM8BB10F2G-A-QFN20" x="16.256" y="5.842" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="1" x="16.256" y="5.842" size="1.778" layer="27" display="off"/>
