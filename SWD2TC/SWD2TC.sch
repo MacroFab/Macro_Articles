@@ -5060,7 +5060,7 @@
 </part>
 <part name="FRAME1" library="MF_Aesthetics" deviceset="MF_FRAME" device="DEFAULT" value="">
 <attribute name="DNAME" value="Parker Dillmann"/>
-<attribute name="REVNUM" value="REV: 2"/>
+<attribute name="REVNUM" value="REV: 1"/>
 </part>
 <part name="U$1" library="MF_Aesthetics" deviceset="GND_RAIL" device=""/>
 <part name="U$2" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="3.3V"/>

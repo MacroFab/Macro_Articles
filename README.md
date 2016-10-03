@@ -22,6 +22,8 @@ This project is under the [Creative Commons Attribution-ShareAlike 4.0 Internati
 | AVR_Tag-Connect | AVR ATmega328P-AU example board using Tag-Connect for programming. |
 | AlteraUSBBlaster2TC | Connects the Altera USB Blaster to a TC2050 Tag-Connect Cable. |
 | EFM8_Tag-Connect | Tiny example board using Tag-Connect for the EGM8 MCU series. |
+| Macro_Duino | MacroFab's version of the ever popular Arduino. Useful for electronic prototyping. |
 | SiLabs2TC | Connects the Silicon Labs USB Debug Adapter to a TC2030 Tag-Connect Cable. |
 | Simple Programming Fixture | How to design a [simple pogo pin programming fixture](https://macrofab.com/blog/design-build-simple-programming-fixture/). |
+| SWD2TC | Connects STLink V2 to a TC2030 Tag-Connect Cable. |
 | USB_Type-C_Test | A Parallax Propeller based board that connects over a USB Type-C connector. |
