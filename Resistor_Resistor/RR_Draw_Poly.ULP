@@ -1,0 +1,43 @@
+if (board) board(B)
+{
+	string fileName = filesetext(B.name, ".TXT");
+
+	string h;
+	string cmd;
+	
+	real poly_X = 22.40945;
+	real poly_Y = 4776.0;
+	
+	real start_X = 12.79528;
+	real start_Y = 0.0;
+	
+	int cnt = 0;
+	
+	output(fileName)
+	{
+		B.elements(E) if (E.populate)
+		{
+			cnt = cnt + 1; 
+			
+			if (cnt == 1)
+			{
+				E.package.contacts(C)
+				{
+					if(C.name == "2")
+					{
+						printf("\tPad: %s Signal: %s\n", C.name, C.signal);
+						
+						sprintf(h, "POLYGON %s (%f %f) (%f %f) (%f %f) (%f %f) (%f %f);\n", C.signal, start_X, start_Y, start_X + poly_X, start_Y, start_X + poly_X, start_Y + poly_Y, start_X, start_Y + poly_Y, start_X, start_Y);
+						cmd += h;
+						start_X = start_X + 48;
+					}
+				}
+			}
+			if (cnt == 200)
+			{
+				cnt = 0;
+			}
+		}
+	}
+	exit(cmd);
+}

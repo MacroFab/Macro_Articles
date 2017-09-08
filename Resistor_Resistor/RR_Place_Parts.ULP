@@ -1,0 +1,35 @@
+if (board) board(B)
+{
+	string h;
+	string cmd;
+	
+	int X = 0;
+	int Y = 0;
+	
+	int cnt = 0;
+	
+	B.elements(E) if (E.populate)
+	{
+		sprintf(h, "MOVE %s (%d %d);\n", E.name, X, Y);
+		cmd += h;
+		
+		sprintf(h, "SMASH %s;\n", E.name);
+		cmd += h;
+		
+		sprintf(h, "DELETE (%d %f);\n", X-50, Y+27.5);
+		cmd += h;
+		
+		cnt = cnt + 1;
+		Y = Y + 24;
+		
+		
+		if (cnt == 200)
+		{
+			cnt = 0;
+			Y = 0;
+			X = X + 48;
+		}
+	}
+	
+	exit(cmd);
+}

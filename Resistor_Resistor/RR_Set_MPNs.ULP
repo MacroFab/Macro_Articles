@@ -1,0 +1,40 @@
+if (board) board(B)
+{
+	string h;
+	string cmd;
+	
+	int cnt = 0;
+	
+	B.elements(E) if (E.populate)
+	{
+		sprintf(h, "CHANGE DISPLAY OFF;\n");
+		cmd += h;
+		if(cnt == 0)
+		{
+			sprintf(h, "ATTRIBUTE %s MPN 'ERJ-1GNF1002C';\n", E.name);
+			cmd += h;
+		}
+		if(cnt == 1)
+		{
+			sprintf(h, "ATTRIBUTE %s MPN 'CRCW020110K0FNED';\n", E.name);
+			cmd += h;
+		}
+		if(cnt == 2)
+		{
+			sprintf(h, "ATTRIBUTE %s MPN 'AC0201FR-0710KL';\n", E.name);
+			cmd += h;
+		}
+		if(cnt == 3)
+		{
+			sprintf(h, "ATTRIBUTE %s MPN 'CR0201-FW-1002GLF';\n", E.name);
+			cmd += h;
+		}
+		cnt++;
+		if(cnt > 3)
+		{
+			cnt = 0;
+		}
+	}
+	
+	exit(cmd);
+}
