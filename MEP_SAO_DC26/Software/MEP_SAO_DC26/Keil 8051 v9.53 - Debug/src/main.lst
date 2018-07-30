@@ -1,0 +1,249 @@
+C51 COMPILER V9.53.0.0   MAIN                                                              07/30/2018 15:11:31 PAGE 1   
+
+
+C51 COMPILER V9.53.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\src\main.OBJ
+COMPILER INVOKED BY: c:\SiliconLabs\SimplicityStudio\v4\developer\toolchains\keil_8051\9.53\BIN\C51.exe C:\Users\pdill\D
+                    -ocuments\GitHub\Macro_Articles\MEP_SAO_DC26\Software\MEP_SAO_DC26\src\main.c OMF2 SMALL DEBUG OBJECTEXTEND ROM(LARGE) WA
+                    -RNINGLEVEL(2) FLOATFUZZY(3) OPTIMIZE(8,SPEED) DEFINE(DEBUG=1) INTVECTOR(0X0000) INTPROMOTE INCDIR(C:\Users\pdill\Documen
+                    -ts\GitHub\Macro_Articles\MEP_SAO_DC26\Software\MEP_SAO_DC26\inc;C:/SiliconLabs/SimplicityStudio/v4/developer/sdks/8051/v
+                    -4.1.1//Device/shared/si8051base;C:/SiliconLabs/SimplicityStudio/v4/developer/sdks/8051/v4.1.1//Device/EFM8SB1/inc) PRINT
+                    -(.\src\main.lst) COND PAGEWIDTH(120) PAGELENGTH(65) OBJECT(.\src\main.OBJ)
+
+line level    source
+
+   1          #include <si_toolchain.h>
+   2          #include <SI_EFM8SB1_Register_Enums.h>
+   3          #include "InitDevice.h"
+   4          
+   5          void delay_ms(int);
+   6          void test_pattern(void);
+   7          void reset_leds(void);
+   8          void all_on(void);
+   9          
+  10          void pattern_chase();
+  11          void alternate();
+  12          void count();
+  13          void random();
+  14          
+  15          volatile int mS_counter = 0;
+  16          volatile int LED_OUTPUT = 0;
+  17          
+  18          int count_delay = 0;
+  19          
+  20          void main(void)
+  21          {
+  22   1              enter_DefaultMode_from_RESET();
+  23   1      
+  24   1              reset_leds();
+  25   1      
+  26   1              IE_EA = 1;
+  27   1      
+  28   1              while(1)
+  29   1              {
+  30   2                      test_pattern();
+  31   2                      reset_leds();
+  32   2      
+  33   2                      random();
+  34   2                      reset_leds();
+  35   2      
+  36   2                      pattern_chase();
+  37   2                      reset_leds();
+  38   2      
+  39   2                      alternate();
+  40   2                      reset_leds();
+  41   2                      alternate();
+  42   2                      reset_leds();
+  43   2                      alternate();
+  44   2                      reset_leds();
+  45   2      
+  46   2                      count();
+  47   2                      reset_leds();
+  48   2      
+  49   2                      all_on();
+  50   2                      reset_leds();
+  51   2      
+C51 COMPILER V9.53.0.0   MAIN                                                              07/30/2018 15:11:31 PAGE 2   
+
+  52   2                      all_on();
+  53   2                      reset_leds();
+  54   2              }
+  55   1              return;
+  56   1      }
+  57          
+  58          void random()
+  59          {
+  60   1              int i;
+  61   1              for(i = 0; i < 50; i++)
+  62   1              {
+  63   2                      LED_OUTPUT = rand();
+*** WARNING C206 IN LINE 63 OF C:\Users\pdill\Documents\GitHub\Macro_Articles\MEP_SAO_DC26\Software\MEP_SAO_DC26\src\mai
+             -n.c: 'rand': missing function-prototype
+  64   2                      delay_ms(100);
+  65   2              }
+  66   1      }
+  67          
+  68          void count()
+  69          {
+  70   1              count_delay = 25;
+  71   1              while(LED_OUTPUT < 32767)
+  72   1              {
+  73   2                      LED_OUTPUT++;
+  74   2                      delay_ms(count_delay);
+  75   2                      if((count_delay > 2) && (LED_OUTPUT % 128 == 0))
+  76   2                      {
+  77   3                              count_delay--;
+  78   3                      }
+  79   2              }
+  80   1              return;
+  81   1      }
+  82          
+  83          void alternate()
+  84          {
+  85   1              LED_OUTPUT = 0x1FFF;
+  86   1              delay_ms(200);
+  87   1      
+  88   1              LED_OUTPUT = 0x6000;
+  89   1              delay_ms(200);
+  90   1      
+  91   1              return;
+  92   1      }
+  93          
+  94          void pattern_chase()
+  95          {
+  96   1              LED_OUTPUT = 0x0001;
+  97   1              delay_ms(200);
+  98   1      
+  99   1              LED_OUTPUT = 0x0003;
+ 100   1              delay_ms(200);
+ 101   1      
+ 102   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 103   1              delay_ms(200);
+ 104   1      
+ 105   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 106   1              delay_ms(200);
+ 107   1      
+ 108   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 109   1              delay_ms(200);
+ 110   1      
+ 111   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 112   1              delay_ms(200);
+C51 COMPILER V9.53.0.0   MAIN                                                              07/30/2018 15:11:31 PAGE 3   
+
+ 113   1      
+ 114   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 115   1              delay_ms(200);
+ 116   1      
+ 117   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 118   1              delay_ms(200);
+ 119   1      
+ 120   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 121   1              delay_ms(200);
+ 122   1      
+ 123   1              LED_OUTPUT = LED_OUTPUT << 2;
+ 124   1              delay_ms(200);
+ 125   1      
+ 126   1              LED_OUTPUT = LED_OUTPUT << 2;
+ 127   1              delay_ms(200);
+ 128   1      
+ 129   1              LED_OUTPUT = 0x2000;
+ 130   1              delay_ms(200);
+ 131   1      
+ 132   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 133   1              delay_ms(200);
+ 134   1      
+ 135   1              return;
+ 136   1      }
+ 137          
+ 138          void reset_leds()
+ 139          {
+ 140   1              LED_OUTPUT = 0x0000;
+ 141   1              delay_ms(200);
+ 142   1      
+ 143   1              return;
+ 144   1      }
+ 145          
+ 146          void all_on()
+ 147          {
+ 148   1              LED_OUTPUT = 0xFFFF;
+ 149   1              delay_ms(200);
+ 150   1      
+ 151   1              return;
+ 152   1      }
+ 153          
+ 154          void test_pattern()
+ 155          {
+ 156   1              LED_OUTPUT = 0x0001;
+ 157   1              delay_ms(100);
+ 158   1      
+ 159   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 160   1              delay_ms(100);
+ 161   1      
+ 162   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 163   1              delay_ms(100);
+ 164   1      
+ 165   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 166   1              delay_ms(100);
+ 167   1      
+ 168   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 169   1              delay_ms(100);
+ 170   1      
+ 171   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 172   1              delay_ms(100);
+ 173   1      
+ 174   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 175   1              delay_ms(100);
+C51 COMPILER V9.53.0.0   MAIN                                                              07/30/2018 15:11:31 PAGE 4   
+
+ 176   1      
+ 177   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 178   1              delay_ms(100);
+ 179   1      
+ 180   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 181   1              delay_ms(100);
+ 182   1      
+ 183   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 184   1              delay_ms(100);
+ 185   1      
+ 186   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 187   1              delay_ms(100);
+ 188   1      
+ 189   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 190   1              delay_ms(100);
+ 191   1      
+ 192   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 193   1              delay_ms(100);
+ 194   1      
+ 195   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 196   1              delay_ms(100);
+ 197   1      
+ 198   1              LED_OUTPUT = LED_OUTPUT << 1;
+ 199   1              delay_ms(100);
+ 200   1      
+ 201   1              return;
+ 202   1      }
+ 203          
+ 204          void delay_ms(int milliseconds)
+ 205          {
+ 206   1              milliseconds = milliseconds + mS_counter;
+ 207   1              while((milliseconds != mS_counter) || (milliseconds > mS_counter));
+ 208   1              return;
+ 209   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    556    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      6       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
