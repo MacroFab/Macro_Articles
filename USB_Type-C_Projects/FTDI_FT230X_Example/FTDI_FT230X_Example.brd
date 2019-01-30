@@ -786,37 +786,48 @@
 </pass>
 </autorouter>
 <elements>
-<element name="C15" library="PP_Passives" package="0603" value=".1uF" x="23.876" y="22.479" smashed="yes">
+<element name="C15" library="PP_Passives" package="0603" value="0.1uF" x="23.876" y="22.479" smashed="yes">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="23.876" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.2758" y="20.701" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="C14" library="PP_Passives" package="0603" value=".1uF" x="20.955" y="11.938" smashed="yes">
+<element name="C14" library="PP_Passives" package="0603" value="0.1uF" x="20.955" y="11.938" smashed="yes">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="20.955" y="11.938" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.4978" y="10.16" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="C10" library="PP_Passives" package="0603" value=".1uF" x="11.7856" y="21.5646" smashed="yes" rot="R180">
+<element name="C10" library="PP_Passives" package="0603" value="0.1uF" x="11.7856" y="21.5646" smashed="yes" rot="R180">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="11.7856" y="21.5646" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13.5382" y="21.4884" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="C11" library="PP_Passives" package="0603" value=".1uF" x="4.064" y="12.1666" smashed="yes" rot="R270">
+<element name="C11" library="PP_Passives" package="0603" value="0.1uF" x="4.064" y="12.1666" smashed="yes" rot="R270">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="4.064" y="12.1666" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="2.8702" y="13.97" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="C12" library="PP_Passives" package="0603" value=".1uF" x="12.5984" y="4.5212" smashed="yes">
+<element name="C12" library="PP_Passives" package="0603" value="0.1uF" x="12.5984" y="4.5212" smashed="yes">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="12.5984" y="4.5212" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="14.4272" y="4.5212" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="C13" library="PP_Passives" package="0603" value=".1uF" x="20.955" y="14.732" smashed="yes" rot="R180">
+<element name="C13" library="PP_Passives" package="0603" value="0.1uF" x="20.955" y="14.732" smashed="yes" rot="R180">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="20.955" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.3708" y="15.748" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="R10" library="PP_Passives" package="0603" value="10K" x="2.413" y="12.192" smashed="yes" rot="R90">
+<attribute name="MPN" value="MF-RES-0603-10K" x="2.413" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="1.524" y="11.7348" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
 </element>
 <element name="R12" library="PP_Passives" package="0603" value="10K" x="26.924" y="26.797" smashed="yes">
+<attribute name="MPN" value="MF-RES-0603-10K" x="26.924" y="26.797" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.3238" y="25.019" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="R11" library="PP_Passives" package="0603" value="10K" x="26.924" y="28.575" smashed="yes">
+<attribute name="MPN" value="MF-RES-0603-10K" x="26.924" y="28.575" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.3238" y="29.464" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="U5" library="PP_DigitalIC" package="P8X32A_LQFP-44" value="P8X32A-Q44" x="12.192" y="12.954" smashed="yes">
+<attribute name="MPN" value="P8X32A-Q44" x="12.192" y="12.954" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="5.192" y="20.574" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="U6" library="PP_DigitalIC" package="SOIC-8_W" value="CAT24C512WI-GT3" x="22.606" y="28.067" smashed="yes" rot="R270">
+<attribute name="MPN" value="CAT24C512WI-GT3" x="22.606" y="28.067" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.13" y="33.02" size="0.8128" layer="21" font="vector" ratio="16"/>
 </element>
 <element name="U4" library="MF_IC_Power" package="SOT-223-3" value="NCP1117LPST33T3G" x="6.858" y="32.131" smashed="yes" rot="R270">
@@ -838,14 +849,14 @@
 </element>
 <element name="X1" library="MF_Frequency_Control" package="7MMX5MM" value="ABMM-6.000MHZ-B2-T" x="25.654" y="13.3604" smashed="yes" rot="R180">
 <attribute name="HOUSEPART" value="NO" x="25.654" y="13.3604" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="25.654" y="13.3604" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ABMM-6.000MHZ-B2-T" x="25.654" y="13.3604" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="25.333" y="8.7884" size="1.016" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="POPULATE" value="1" x="25.654" y="13.3604" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="http://www.abracon.com/Resonators/ABMM.pdf" x="25.654" y="13.3604" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C6" library="MF_Passives" package="C1206" value="10uF" x="3.0988" y="39.243" smashed="yes" rot="R180">
 <attribute name="DIELECTRIC" value="" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HOUSEPART" value="" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HOUSEPART" value="MF-CAP-1206-10uF" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="0.7972" y="40.67" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
@@ -856,7 +867,7 @@
 <element name="C7" library="MF_Passives" package="C0603" value="0.1uF" x="3.81" y="37.1856" smashed="yes" rot="R180">
 <attribute name="DIELECTRIC" value="" x="3.81" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HOUSEPART" value="" x="3.81" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="3.81" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="3.81" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="0.505" y="36.6854" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="3.81" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="" x="3.81" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
@@ -866,7 +877,7 @@
 <element name="C8" library="MF_Passives" package="C0603" value="0.1uF" x="11.049" y="34.417" smashed="yes" rot="R90">
 <attribute name="DIELECTRIC" value="" x="11.049" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HOUSEPART" value="" x="11.049" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="11.049" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="11.049" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.157" y="36.152" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="11.049" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="11.049" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
@@ -876,7 +887,7 @@
 <element name="C9" library="MF_Passives" package="C1206" value="10uF" x="13.081" y="34.417" smashed="yes" rot="R90">
 <attribute name="DIELECTRIC" value="" x="13.081" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HOUSEPART" value="" x="13.081" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="13.081" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MF-CAP-1206-10uF" x="13.081" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.151" y="36.86" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="13.081" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="13.081" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
@@ -884,12 +895,13 @@
 <attribute name="VOLTAGE" value="" x="13.081" y="34.417" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="PP_DigitalIC" package="FT230X_QFN-16" value="FT230XQ-R" x="15.621" y="41.402" smashed="yes" rot="R180">
+<attribute name="MPN" value="FT230XQ-R" x="15.621" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.05" y="38.306" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="C2" library="MF_Passives" package="C0603" value="0.1uF" x="9.2075" y="48.641" smashed="yes" rot="R90">
 <attribute name="DIELECTRIC" value="" x="-16.1925" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HOUSEPART" value="" x="-16.1925" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="-16.1925" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="-16.1925" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.8235" y="46.058" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-16.1925" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="-16.1925" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
@@ -899,7 +911,7 @@
 <element name="C5" library="MF_Passives" package="C0603" value="0.1uF" x="19.7485" y="40.3635" smashed="yes">
 <attribute name="DIELECTRIC" value="" x="-13.2715" y="61.9535" size="1.778" layer="27" display="off"/>
 <attribute name="HOUSEPART" value="" x="-13.2715" y="61.9535" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-13.2715" y="61.9535" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="-13.2715" y="61.9535" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.809" y="41.273" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-13.2715" y="61.9535" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="" x="-13.2715" y="61.9535" size="1.778" layer="27" display="off"/>
@@ -907,11 +919,12 @@
 <attribute name="VOLTAGE" value="" x="-13.2715" y="61.9535" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U3" library="PP_DiscreteSemi" package="SOT-23-3" value="IRLML6401TRPBF" x="9.3345" y="40.386" smashed="yes" rot="R180">
+<attribute name="MPN" value="IRLML6401TRPBF" x="9.3345" y="40.386" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.033" y="39.8399" size="0.8128" layer="25" font="vector" ratio="16" rot="R270"/>
 </element>
 <element name="C1" library="MF_Passives" package="C0603" value="1uF" x="7.6835" y="48.641" smashed="yes" rot="R90">
 <attribute name="DIELECTRIC" value="" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HOUSEPART" value="" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HOUSEPART" value="MF-CAP-0603-1uF" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.0455" y="46.058" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
@@ -922,7 +935,7 @@
 <element name="C3" library="MF_Passives" package="C0603" value="47pF" x="18.0975" y="46.101" smashed="yes" rot="R270">
 <attribute name="DIELECTRIC" value="" x="24.4475" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HOUSEPART" value="" x="24.4475" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="24.4475" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C470J1GACTU" x="24.4475" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="19.047" y="46.566" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="24.4475" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="" x="24.4475" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
@@ -932,7 +945,7 @@
 <element name="C4" library="MF_Passives" package="C0603" value="47pF" x="13.1445" y="46.101" smashed="yes" rot="R270">
 <attribute name="DIELECTRIC" value="" x="15.6845" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HOUSEPART" value="" x="15.6845" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="15.6845" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C470J1GACTU" x="15.6845" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.3235" y="47.8185" size="1.016" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="POPULATE" value="1" x="15.6845" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="" x="15.6845" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
@@ -941,35 +954,35 @@
 </element>
 <element name="TP2" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="2.6035" y="53.4035" smashed="yes">
 <attribute name="HOUSEPART" value="" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5115" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.6035" y="55.1815" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP3" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="26.162" y="58.547" smashed="yes">
 <attribute name="HOUSEPART" value="" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5115" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.162" y="60.325" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP1" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="2.6035" y="58.7375" smashed="yes">
 <attribute name="HOUSEPART" value="" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5115" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.6035" y="60.5155" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="PP_Connectors" package="105450-0101" value="105450-0101" x="15.621" y="54.229" smashed="yes" rot="R180">
 <attribute name="HOUSEPART" value="" x="25.781" y="105.029" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="25.781" y="105.029" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="105450-0101" x="25.781" y="105.029" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.2315" y="56.3555" size="0.8128" layer="25" font="vector" ratio="16" align="top-left"/>
 <attribute name="POPULATE" value="1" x="25.781" y="105.029" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="" x="25.781" y="105.029" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="MF_Passives" package="R0603" value="5.1K" x="18.0975" y="50.292" smashed="yes" rot="R270">
 <attribute name="HOUSEPART" value="" x="-16.1925" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-16.1925" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF5101V" x="-16.1925" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.396" y="47.709" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-16.1925" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="" x="-16.1925" y="76.962" size="1.778" layer="27" rot="R270" display="off"/>
@@ -979,7 +992,7 @@
 </element>
 <element name="R2" library="MF_Passives" package="R0603" value="27" x="14.6685" y="46.101" smashed="yes" rot="R270">
 <attribute name="HOUSEPART" value="" x="-23.4315" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-23.4315" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MF-RES-0603-27" x="-23.4315" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.8715" y="43.3275" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-23.4315" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="" x="-23.4315" y="76.581" size="1.778" layer="27" rot="R270" display="off"/>
@@ -989,7 +1002,7 @@
 </element>
 <element name="R3" library="MF_Passives" package="R0603" value="27" x="16.5735" y="46.101" smashed="yes" rot="R270">
 <attribute name="HOUSEPART" value="" x="-25.3365" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-25.3365" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MF-RES-0603-27" x="-25.3365" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.9675" y="43.3275" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-25.3365" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="" x="-25.3365" y="80.391" size="1.778" layer="27" rot="R270" display="off"/>
@@ -999,21 +1012,21 @@
 </element>
 <element name="L1" library="MF_Passives" package="L0603" value="MI0603K300R-10" x="13.1445" y="50.292" smashed="yes" rot="R270">
 <attribute name="HOUSEPART" value="" x="-32.5755" y="69.342" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-32.5755" y="69.342" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MI0603K300R-10" x="-32.5755" y="69.342" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.57" y="47.709" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-32.5755" y="69.342" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="URL" value="" x="-32.5755" y="69.342" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="L2" library="MF_Passives" package="L0603" value="MI0603K300R-10" x="19.6215" y="50.292" smashed="yes" rot="R270">
 <attribute name="HOUSEPART" value="" x="-29.9085" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-29.9085" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MI0603K300R-10" x="-29.9085" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="18.92" y="51.8365" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-29.9085" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="URL" value="" x="-29.9085" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="MF_Passives" package="R0603" value="100K" x="9.779" y="45.0215" smashed="yes">
 <attribute name="HOUSEPART" value="" x="-28.321" y="-8.3185" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-28.321" y="-8.3185" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MF-RES-0603-100K" x="-28.321" y="-8.3185" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.6645" y="44.7245" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-28.321" y="-8.3185" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="" x="-28.321" y="-8.3185" size="1.778" layer="27" display="off"/>
@@ -1023,7 +1036,7 @@
 </element>
 <element name="R5" library="MF_Passives" package="R0603" value="1K" x="9.779" y="43.4975" smashed="yes">
 <attribute name="HOUSEPART" value="" x="-1.651" y="-9.8425" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-1.651" y="-9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MF-RES-0603-1K" x="-1.651" y="-9.8425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.6645" y="43.137" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-1.651" y="-9.8425" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="" x="-1.651" y="-9.8425" size="1.778" layer="27" display="off"/>
@@ -1033,7 +1046,7 @@
 </element>
 <element name="R6" library="MF_Passives" package="R0603" value="330" x="7.6835" y="53.721" smashed="yes" rot="R90">
 <attribute name="HOUSEPART" value="" x="80.0735" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="80.0735" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MF-RES-0603-330" x="80.0735" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.0817" y="52.2635" size="1.016" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="POPULATE" value="1" x="80.0735" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="80.0735" y="38.481" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1050,7 +1063,7 @@
 </element>
 <element name="R7" library="MF_Passives" package="R0603" value="330" x="9.271" y="53.721" smashed="yes" rot="R90">
 <attribute name="HOUSEPART" value="" x="89.281" y="34.671" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="89.281" y="34.671" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MF-RES-0603-330" x="89.281" y="34.671" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.6565" y="52.2635" size="1.016" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="POPULATE" value="1" x="89.281" y="34.671" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="89.281" y="34.671" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1067,7 +1080,7 @@
 </element>
 <element name="R8" library="MF_Passives" package="R0603" value="330" x="5.969" y="52.07" smashed="yes" rot="R90">
 <attribute name="HOUSEPART" value="" x="93.599" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="93.599" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MF-RES-0603-330" x="93.599" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.291" y="50.4855" size="1.016" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="POPULATE" value="1" x="93.599" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="93.599" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1084,7 +1097,7 @@
 </element>
 <element name="R9" library="MF_Passives" package="R0603" value="150" x="22.479" y="53.721" smashed="yes" rot="R90">
 <attribute name="HOUSEPART" value="" x="117.729" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="117.729" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1500V" x="117.729" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.801" y="52.1365" size="1.016" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="POPULATE" value="1" x="117.729" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="117.729" y="27.051" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1100,6 +1113,7 @@
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-LED-0603-RED" x="-84.201" y="78.359" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U2" library="PP_Passives" package="IP4234CZ6_SOT-457-6" value="IP4234CZ6,125" x="15.621" y="50.1015" smashed="yes" rot="R270">
+<attribute name="MPN" value="IP4234CZ6,125" x="15.621" y="50.1015" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="16.8595" y="52.2825" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="J3" library="MF_Connectors" package="PTH_2.54MM_01X02" value="MF-CON-2.54mm-01x02" x="11.176" y="50.292" smashed="yes" rot="R270">
@@ -1113,7 +1127,7 @@
 <element name="C16" library="MF_Passives" package="C0603" value="0.1uF" x="18.288" y="36.449" smashed="yes" rot="R270">
 <attribute name="DIELECTRIC" value="" x="18.288" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HOUSEPART" value="" x="18.288" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="18.288" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MF-CAP-0603-0.1uF" x="18.288" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="19.301" y="36.914" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="18.288" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="" x="18.288" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1122,7 +1136,7 @@
 </element>
 <element name="TP4" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="2.921" y="23.368" smashed="yes">
 <attribute name="HOUSEPART" value="" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5115" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.921" y="25.019" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>

@@ -3331,65 +3331,143 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </class>
 </classes>
 <parts>
-<part name="C10" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
-<part name="C11" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
-<part name="C12" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
-<part name="C13" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
-<part name="U6" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="SOIC-8_W" value="CAT24C512WI-GT3"/>
-<part name="R12" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
-<part name="R11" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
-<part name="C15" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
-<part name="R10" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="10K"/>
+<part name="C10" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="C11" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="C12" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="C13" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="U6" library="PP_DigitalIC" deviceset="EEPROM_I2C" device="SOIC-8_W" value="CAT24C512WI-GT3">
+<attribute name="MPN" value="CAT24C512WI-GT3"/>
+</part>
+<part name="R12" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="10K">
+<attribute name="MPN" value="MF-RES-0603-10K"/>
+</part>
+<part name="R11" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="10K">
+<attribute name="MPN" value="MF-RES-0603-10K"/>
+</part>
+<part name="C15" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="R10" library="PP_Passives" deviceset="RESISTOR" device="_0603" value="10K">
+<attribute name="MPN" value="MF-RES-0603-10K"/>
+</part>
 <part name="U4" library="MF_IC_Power" deviceset="NCP1117LP" device="ST33T3G" value="NCP1117LPST33T3G"/>
-<part name="U5" library="PP_DigitalIC" deviceset="P8X32A" device="-Q44" value="P8X32A-Q44"/>
-<part name="C14" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value=".1uF"/>
+<part name="U5" library="PP_DigitalIC" deviceset="P8X32A" device="-Q44" value="P8X32A-Q44">
+<attribute name="MPN" value="P8X32A-Q44"/>
+</part>
+<part name="C14" library="PP_Passives" deviceset="CAPACITOR_NON_POLAR" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
 <part name="FRAME1" library="MF_Aesthetics" deviceset="MF_FRAME" device="DEFAULT" value="MF_FRAMEDEFAULT">
 <attribute name="DNAME" value="Parker Dillmann"/>
 <attribute name="REVNUM" value="REV: 1"/>
 </part>
-<part name="X1" library="MF_Frequency_Control" deviceset="CYRSTAL_GND" device="_ABMM" value="ABMM-6.000MHZ-B2-T"/>
+<part name="X1" library="MF_Frequency_Control" deviceset="CYRSTAL_GND" device="_ABMM" value="ABMM-6.000MHZ-B2-T">
+<attribute name="MPN" value="ABMM-6.000MHZ-B2-T"/>
+</part>
 <part name="U$5" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="3.3V"/>
-<part name="C6" library="MF_Passives" deviceset="CAPACITOR_NP" device="_1206" value="10uF"/>
-<part name="C7" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
-<part name="C8" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
-<part name="C9" library="MF_Passives" deviceset="CAPACITOR_NP" device="_1206" value="10uF"/>
-<part name="U1" library="PP_DigitalIC" deviceset="FT230X" device="Q" value="FT230XQ-R"/>
-<part name="C2" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
-<part name="C5" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
-<part name="U3" library="PP_DiscreteSemi" deviceset="MOSFET_P-CHANNEL_SINGLE" device="_SOT-23" value="IRLML6401TRPBF"/>
-<part name="C1" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="1uF"/>
-<part name="C3" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="47pF"/>
-<part name="C4" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="47pF"/>
-<part name="TP2" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
-<part name="TP3" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
-<part name="TP1" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
-<part name="J1" library="PP_Connectors" deviceset="USB_TYPE-C" device="_105450-0101" value="105450-0101"/>
+<part name="C6" library="MF_Passives" deviceset="CAPACITOR_NP" device="_1206" value="10uF">
+<attribute name="HOUSEPART" value="MF-CAP-1206-10uF"/>
+</part>
+<part name="C7" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="C8" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="C9" library="MF_Passives" deviceset="CAPACITOR_NP" device="_1206" value="10uF">
+<attribute name="MPN" value="MF-CAP-1206-10uF"/>
+</part>
+<part name="U1" library="PP_DigitalIC" deviceset="FT230X" device="Q" value="FT230XQ-R">
+<attribute name="MPN" value="FT230XQ-R"/>
+</part>
+<part name="C2" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="C5" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="U3" library="PP_DiscreteSemi" deviceset="MOSFET_P-CHANNEL_SINGLE" device="_SOT-23" value="IRLML6401TRPBF">
+<attribute name="MPN" value="IRLML6401TRPBF"/>
+</part>
+<part name="C1" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="1uF">
+<attribute name="HOUSEPART" value="MF-CAP-0603-1uF"/>
+</part>
+<part name="C3" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="47pF">
+<attribute name="MPN" value="C0603C470J1GACTU"/>
+</part>
+<part name="C4" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="47pF">
+<attribute name="MPN" value="C0603C470J1GACTU"/>
+</part>
+<part name="TP2" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
+<attribute name="MPN" value="5115"/>
+</part>
+<part name="TP3" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
+<attribute name="MPN" value="5115"/>
+</part>
+<part name="TP1" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
+<attribute name="MPN" value="5115"/>
+</part>
+<part name="J1" library="PP_Connectors" deviceset="USB_TYPE-C" device="_105450-0101" value="105450-0101">
+<attribute name="MPN" value="105450-0101"/>
+</part>
 <part name="U$12" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
 <part name="U$13" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="USB_VBUS_PORT"/>
 <part name="U$14" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="USB_VBUS"/>
-<part name="R1" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="5.1K"/>
-<part name="R2" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="27"/>
-<part name="R3" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="27"/>
-<part name="L1" library="MF_Passives" deviceset="INDUCTOR" device="_0603" value="MI0603K300R-10"/>
-<part name="L2" library="MF_Passives" deviceset="INDUCTOR" device="_0603" value="MI0603K300R-10"/>
-<part name="R4" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="100K"/>
-<part name="R5" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="1K"/>
+<part name="R1" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="5.1K">
+<attribute name="MPN" value="ERJ-3EKF5101V"/>
+</part>
+<part name="R2" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="27">
+<attribute name="MPN" value="MF-RES-0603-27"/>
+</part>
+<part name="R3" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="27">
+<attribute name="MPN" value="MF-RES-0603-27"/>
+</part>
+<part name="L1" library="MF_Passives" deviceset="INDUCTOR" device="_0603" value="MI0603K300R-10">
+<attribute name="MPN" value="MI0603K300R-10"/>
+</part>
+<part name="L2" library="MF_Passives" deviceset="INDUCTOR" device="_0603" value="MI0603K300R-10">
+<attribute name="MPN" value="MI0603K300R-10"/>
+</part>
+<part name="R4" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="100K">
+<attribute name="MPN" value="MF-RES-0603-100K"/>
+</part>
+<part name="R5" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="1K">
+<attribute name="MPN" value="MF-RES-0603-1K"/>
+</part>
 <part name="U$15" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="USB_VBUS_SWITCHED"/>
 <part name="U$16" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="SYSTEM_VBUS"/>
-<part name="R6" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="330"/>
+<part name="R6" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="330">
+<attribute name="MPN" value="MF-RES-0603-330"/>
+</part>
 <part name="TXRX" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-RED" value="MF-LED-0603-RED"/>
-<part name="R7" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="330"/>
+<part name="R7" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="330">
+<attribute name="MPN" value="MF-RES-0603-330"/>
+</part>
 <part name="VBUS" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-RED" value="MF-LED-0603-RED"/>
 <part name="U$17" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="SYSTEM_VBUS"/>
 <part name="U$18" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
 <part name="U$19" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="USB_VBUS_SWITCHED"/>
-<part name="R8" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="330"/>
+<part name="R8" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="330">
+<attribute name="MPN" value="MF-RES-0603-330"/>
+</part>
 <part name="VBUS_SW" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-RED" value="MF-LED-0603-RED"/>
 <part name="U$20" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
-<part name="R9" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="150"/>
+<part name="R9" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="150">
+<attribute name="MPN" value="ERJ-3EKF1500V"/>
+</part>
 <part name="BCD" library="MF_LEDs" deviceset="LED_SINGLE" device="-0603-RED" value="MF-LED-0603-RED"/>
 <part name="U$21" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
-<part name="U2" library="PP_Passives" deviceset="IP4234CZ6" device="" value="IP4234CZ6,125"/>
+<part name="U2" library="PP_Passives" deviceset="IP4234CZ6" device="" value="IP4234CZ6,125">
+<attribute name="MPN" value="IP4234CZ6,125"/>
+</part>
 <part name="U$1" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="USB_VBUS_SWITCHED"/>
 <part name="U$2" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
 <part name="J3" library="MF_Connectors" deviceset="CON_01X02" device="_PTH_2.54MM" value="MF-CON-2.54mm-01x02">
@@ -3401,8 +3479,12 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="U$6" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
 <part name="U$7" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="3.3V"/>
 <part name="U$8" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
-<part name="C16" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF"/>
-<part name="TP4" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115"/>
+<part name="C16" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
+<part name="TP4" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
+<attribute name="MPN" value="5115"/>
+</part>
 <part name="J2" library="MF_Connectors" deviceset="CON_01X03" device="_PTH_2.54MM" value="MF-CON-2.54mm-01x03">
 <attribute name="LABEL01" value="P8"/>
 <attribute name="LABEL02" value="P9"/>
@@ -3441,41 +3523,50 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="308.61" y1="184.15" x2="308.61" y2="25.4" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="C10" gate="G$1" x="100.33" y="16.51" smashed="yes" rot="R180">
-<attribute name="NAME" x="97.79" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="97.79" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<instance part="C10" gate="G$1" x="97.79" y="16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="95.25" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="95.25" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="97.79" y="16.51" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="109.22" y="16.51" smashed="yes" rot="R180">
-<attribute name="NAME" x="106.68" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="106.68" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<instance part="C11" gate="G$1" x="107.95" y="16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="105.41" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="105.41" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="107.95" y="16.51" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="118.11" y="16.51" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.57" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="115.57" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="118.11" y="16.51" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="127" y="16.51" smashed="yes" rot="R180">
-<attribute name="NAME" x="124.46" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="124.46" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<instance part="C13" gate="G$1" x="128.27" y="16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="125.73" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="125.73" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="128.27" y="16.51" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="212.09" y="82.55" smashed="yes" rot="MR0">
 <attribute name="NAME" x="212.09" y="87.63" size="1.016" layer="95" font="vector" rot="MR0" align="top-left"/>
 <attribute name="VALUE" x="212.09" y="85.09" size="1.016" layer="96" font="vector" rot="MR0"/>
+<attribute name="MPN" x="212.09" y="82.55" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="190.5" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="76.2" size="1.016" layer="95" font="vector" rot="MR90"/>
 <attribute name="VALUE" x="187.96" y="76.2" size="1.016" layer="96" font="vector" rot="R90"/>
+<attribute name="MPN" x="190.5" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="182.88" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.8" y="76.2" size="1.016" layer="95" font="vector" rot="MR90"/>
 <attribute name="VALUE" x="180.34" y="76.2" size="1.016" layer="96" font="vector" rot="R90"/>
+<attribute name="MPN" x="182.88" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="176.53" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="173.99" y="80.01" size="1.016" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="173.99" y="82.55" size="1.016" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="176.53" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="93.98" y="77.47" smashed="yes">
 <attribute name="NAME" x="88.9" y="82.55" size="1.016" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="88.9" y="80.01" size="1.016" layer="96" font="vector"/>
+<attribute name="MPN" x="93.98" y="77.47" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="247.65" y="158.75" smashed="yes">
 <attribute name="NAME" x="247.65" y="163.83" size="1.016" layer="95" font="vector" align="top-left"/>
@@ -3484,10 +3575,12 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="U5" gate="G$1" x="111.76" y="80.01" smashed="yes">
 <attribute name="NAME" x="111.76" y="85.09" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="111.76" y="82.55" size="1.016" layer="96" font="vector"/>
+<attribute name="MPN" x="111.76" y="80.01" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C14" gate="G$1" x="135.89" y="16.51" smashed="yes" rot="R180">
-<attribute name="NAME" x="133.35" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="133.35" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<instance part="C14" gate="G$1" x="138.43" y="16.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="135.89" y="15.24" size="1.016" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="135.89" y="17.78" size="1.016" layer="96" font="vector" rot="R180"/>
+<attribute name="MPN" x="138.43" y="16.51" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="181.61" y="25.4" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="194.382" y="1.318" size="2.54" layer="94" font="vector"/>
@@ -3522,6 +3615,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="U1" gate="G$1" x="133.35" y="143.51" smashed="yes">
 <attribute name="NAME" x="133.35" y="148.59" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="133.35" y="146.05" size="1.016" layer="96" font="vector"/>
+<attribute name="MPN" x="133.35" y="143.51" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="67.31" y="120.65" smashed="yes">
 <attribute name="NAME" x="69.85" y="121.92" size="1.016" layer="95" font="vector" rot="MR180"/>
@@ -3534,6 +3628,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="U3" gate="G$1" x="176.53" y="156.21" smashed="yes" rot="MR90">
 <attribute name="NAME" x="171.45" y="163.83" size="1.016" layer="95" font="vector" rot="R180" align="bottom-right"/>
 <attribute name="VALUE" x="171.45" y="161.29" size="1.016" layer="96" font="vector"/>
+<attribute name="MPN" x="176.53" y="156.21" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="57.15" y="120.65" smashed="yes">
 <attribute name="NAME" x="59.69" y="121.92" size="1.016" layer="95" font="vector" rot="MR180"/>
@@ -3656,6 +3751,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="U2" gate="G$1" x="80.01" y="137.16" smashed="yes" rot="MR180">
 <attribute name="NAME" x="80.01" y="147.32" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="80.01" y="144.78" size="1.016" layer="96" font="vector"/>
+<attribute name="MPN" x="80.01" y="137.16" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="232.41" y="166.37" smashed="yes">
 <attribute name="VALUE" x="232.41" y="168.91" size="1.016" layer="96" font="vector" align="center"/>
@@ -3824,34 +3920,34 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="U$6" gate="G$1" pin="P$1"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="11.43" x2="154.94" y2="8.89" width="0.1524" layer="91"/>
-<wire x1="127" y1="13.97" x2="127" y2="11.43" width="0.1524" layer="91"/>
-<wire x1="127" y1="11.43" x2="118.11" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="128.27" y1="13.97" x2="128.27" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="128.27" y1="11.43" x2="118.11" y2="11.43" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="118.11" y1="11.43" x2="109.22" y2="11.43" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="11.43" x2="100.33" y2="11.43" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="13.97" x2="100.33" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="11.43" x2="107.95" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="11.43" x2="97.79" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="13.97" x2="97.79" y2="11.43" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="13.97" x2="109.22" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="13.97" x2="107.95" y2="11.43" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="118.11" y1="13.97" x2="118.11" y2="11.43" width="0.1524" layer="91"/>
 <junction x="118.11" y="11.43"/>
-<junction x="109.22" y="11.43"/>
+<junction x="107.95" y="11.43"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="127" y1="11.43" x2="135.89" y2="11.43" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="11.43" x2="135.89" y2="13.97" width="0.1524" layer="91"/>
-<junction x="127" y="11.43"/>
-<wire x1="135.89" y1="11.43" x2="140.97" y2="11.43" width="0.1524" layer="91"/>
-<junction x="135.89" y="11.43"/>
+<wire x1="128.27" y1="11.43" x2="138.43" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="11.43" x2="138.43" y2="13.97" width="0.1524" layer="91"/>
+<junction x="128.27" y="11.43"/>
+<wire x1="138.43" y1="11.43" x2="143.51" y2="11.43" width="0.1524" layer="91"/>
+<junction x="138.43" y="11.43"/>
 <junction x="154.94" y="11.43"/>
 <pinref part="X1" gate="G$1" pin="GND"/>
-<wire x1="140.97" y1="11.43" x2="154.94" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="11.43" x2="154.94" y2="11.43" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="85.09" x2="134.62" y2="87.63" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="87.63" x2="154.94" y2="87.63" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="87.63" x2="154.94" y2="11.43" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="VSS"/>
-<wire x1="127" y1="26.67" x2="140.97" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="26.67" x2="140.97" y2="11.43" width="0.1524" layer="91"/>
-<junction x="140.97" y="11.43"/>
+<wire x1="127" y1="26.67" x2="143.51" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="26.67" x2="143.51" y2="11.43" width="0.1524" layer="91"/>
+<junction x="143.51" y="11.43"/>
 <pinref part="U5" gate="G$1" pin="!BOE"/>
 <wire x1="109.22" y1="80.01" x2="106.68" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="80.01" x2="106.68" y2="87.63" width="0.1524" layer="91"/>
@@ -4038,33 +4134,33 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="100.33" y1="21.59" x2="109.22" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="21.59" x2="118.11" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="118.11" y1="21.59" x2="127" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="127" y1="21.59" x2="127" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="21.59" x2="107.95" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="21.59" x2="118.11" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="21.59" x2="128.27" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="128.27" y1="21.59" x2="128.27" y2="19.05" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="118.11" y1="21.59" x2="118.11" y2="19.05" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="19.05" x2="109.22" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="19.05" x2="107.95" y2="21.59" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="100.33" y1="19.05" x2="100.33" y2="21.59" width="0.1524" layer="91"/>
-<junction x="100.33" y="21.59"/>
-<junction x="109.22" y="21.59"/>
+<wire x1="97.79" y1="19.05" x2="97.79" y2="21.59" width="0.1524" layer="91"/>
+<junction x="97.79" y="21.59"/>
+<junction x="107.95" y="21.59"/>
 <junction x="118.11" y="21.59"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="127" y1="21.59" x2="135.89" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="135.89" y1="21.59" x2="135.89" y2="19.05" width="0.1524" layer="91"/>
-<junction x="127" y="21.59"/>
+<wire x1="128.27" y1="21.59" x2="138.43" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="21.59" x2="138.43" y2="19.05" width="0.1524" layer="91"/>
+<junction x="128.27" y="21.59"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="100.33" y1="21.59" x2="85.09" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="21.59" x2="85.09" y2="21.59" width="0.1524" layer="91"/>
 <wire x1="85.09" y1="21.59" x2="85.09" y2="77.47" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="85.09" y1="77.47" x2="85.09" y2="87.63" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="77.47" x2="85.09" y2="77.47" width="0.1524" layer="91"/>
 <junction x="85.09" y="77.47"/>
 <pinref part="U5" gate="G$1" pin="VDD"/>
-<wire x1="109.22" y1="26.67" x2="100.33" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="21.59" x2="100.33" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="26.67" x2="97.79" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="21.59" x2="97.79" y2="26.67" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VCC"/>
