@@ -3374,7 +3374,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </part>
 <part name="U$5" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="3.3V"/>
 <part name="C6" library="MF_Passives" deviceset="CAPACITOR_NP" device="_1206" value="10uF">
-<attribute name="HOUSEPART" value="MF-CAP-1206-10uF"/>
+<attribute name="MPN" value="MF-CAP-1206-10uF"/>
 </part>
 <part name="C7" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
 <attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
@@ -3398,7 +3398,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="MPN" value="IRLML6401TRPBF"/>
 </part>
 <part name="C1" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="1uF">
-<attribute name="HOUSEPART" value="MF-CAP-0603-1uF"/>
+<attribute name="MPN" value="MF-CAP-0603-1uF"/>
 </part>
 <part name="C3" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="47pF">
 <attribute name="MPN" value="C0603C470J1GACTU"/>
@@ -3407,13 +3407,13 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="MPN" value="C0603C470J1GACTU"/>
 </part>
 <part name="TP2" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
-<attribute name="MPN" value="5115"/>
+<attribute name="MPN" value="Keystone 5115"/>
 </part>
 <part name="TP3" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
-<attribute name="MPN" value="5115"/>
+<attribute name="MPN" value="Keystone 5115"/>
 </part>
 <part name="TP1" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
-<attribute name="MPN" value="5115"/>
+<attribute name="MPN" value="Keystone 5115"/>
 </part>
 <part name="J1" library="PP_Connectors" deviceset="USB_TYPE-C" device="_105450-0101" value="105450-0101">
 <attribute name="MPN" value="105450-0101"/>
@@ -3483,7 +3483,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
 </part>
 <part name="TP4" library="PP_Connectors" deviceset="TEST_POINT_SINGLE" device="_KEYSTONE_5115-5119" value="5115">
-<attribute name="MPN" value="5115"/>
+<attribute name="MPN" value="Keystone 5115"/>
 </part>
 <part name="J2" library="MF_Connectors" deviceset="CON_01X03" device="_PTH_2.54MM" value="MF-CON-2.54mm-01x03">
 <attribute name="LABEL01" value="P8"/>

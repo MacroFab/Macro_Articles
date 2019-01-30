@@ -856,8 +856,8 @@
 </element>
 <element name="C6" library="MF_Passives" package="C1206" value="10uF" x="3.0988" y="39.243" smashed="yes" rot="R180">
 <attribute name="DIELECTRIC" value="" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HOUSEPART" value="MF-CAP-1206-10uF" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HOUSEPART" value="" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="MF-CAP-1206-10uF" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="0.7972" y="40.67" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="" x="3.0988" y="39.243" size="1.778" layer="27" rot="R180" display="off"/>
@@ -924,8 +924,8 @@
 </element>
 <element name="C1" library="MF_Passives" package="C0603" value="1uF" x="7.6835" y="48.641" smashed="yes" rot="R90">
 <attribute name="DIELECTRIC" value="" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HOUSEPART" value="MF-CAP-0603-1uF" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HOUSEPART" value="" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MF-CAP-0603-1uF" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.0455" y="46.058" size="1.016" layer="25" font="vector" ratio="16"/>
 <attribute name="POPULATE" value="1" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="" x="-10.0965" y="25.781" size="1.778" layer="27" rot="R90" display="off"/>
@@ -954,21 +954,21 @@
 </element>
 <element name="TP2" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="2.6035" y="53.4035" smashed="yes">
 <attribute name="HOUSEPART" value="" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5115" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="Keystone 5115" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.6035" y="55.1815" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="-27.8765" y="33.0835" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP3" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="26.162" y="58.547" smashed="yes">
 <attribute name="HOUSEPART" value="" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5115" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="Keystone 5115" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.162" y="60.325" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="14.732" y="38.227" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP1" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="2.6035" y="58.7375" smashed="yes">
 <attribute name="HOUSEPART" value="" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5115" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="Keystone 5115" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.6035" y="60.5155" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="-20.2565" y="25.7175" size="1.778" layer="27" display="off"/>
@@ -1136,7 +1136,7 @@
 </element>
 <element name="TP4" library="PP_Connectors" package="KEYSTONE_5115-5119" value="5115" x="2.921" y="23.368" smashed="yes">
 <attribute name="HOUSEPART" value="" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5115" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="Keystone 5115" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.921" y="25.019" size="0.8128" layer="25" font="vector" ratio="16" align="center"/>
 <attribute name="POPULATE" value="1" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="" x="2.921" y="23.368" size="1.778" layer="27" display="off"/>
