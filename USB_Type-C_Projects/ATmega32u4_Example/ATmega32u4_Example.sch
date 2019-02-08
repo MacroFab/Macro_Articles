@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,16 +54,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -2688,11 +2688,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="MPN" value="MF-RES-0603-10K"/>
 </part>
 <part name="U$17" library="MF_Aesthetics" deviceset="POWER_RAIL" device="" value="5V"/>
-<part name="SW2" library="MF_Switches" deviceset="TACT" device="_4.2MM" value="MF-SW-TACT-4.2MM"/>
-<part name="SW3" library="MF_Switches" deviceset="TACT" device="_4.2MM" value="MF-SW-TACT-4.2MM"/>
-<part name="SW4" library="MF_Switches" deviceset="TACT" device="_4.2MM" value="MF-SW-TACT-4.2MM"/>
-<part name="SW5" library="MF_Switches" deviceset="TACT" device="_4.2MM" value="MF-SW-TACT-4.2MM"/>
-<part name="U$18" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
+<part name="C15" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
+<attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2763,9 +2761,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="NAME" x="193.04" y="124.46" size="1.016" layer="95" font="vector" rot="MR90"/>
 <attribute name="VALUE" x="195.58" y="124.46" size="1.016" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="191.77" y="177.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="189.23" y="181.864" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="189.23" y="179.324" size="1.016" layer="96" font="vector"/>
+<instance part="R4" gate="G$1" x="189.23" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.69" y="181.864" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="186.69" y="179.324" size="1.016" layer="96" font="vector"/>
 </instance>
 <instance part="X1" gate="G$1" x="36.83" y="88.9" smashed="yes">
 <attribute name="NAME" x="31.75" y="93.98" size="1.016" layer="95" font="vector" align="top-left"/>
@@ -2883,8 +2881,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="NAME" x="46.99" y="0" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="46.99" y="-2.54" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="U$15" gate="G$1" x="64.77" y="-5.08" smashed="yes">
-<attribute name="VALUE" x="64.77" y="-7.62" size="1.016" layer="96" font="vector" rot="R180" align="center"/>
+<instance part="U$15" gate="G$1" x="64.77" y="19.05" smashed="yes">
+<attribute name="VALUE" x="64.77" y="16.51" size="1.016" layer="96" font="vector" rot="R180" align="center"/>
 </instance>
 <instance part="R5" gate="G$1" x="38.1" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.56" y="29.464" size="1.016" layer="95" font="vector" align="top-left"/>
@@ -2978,24 +2976,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="U$17" gate="G$1" x="104.14" y="62.23" smashed="yes">
 <attribute name="VALUE" x="104.14" y="64.77" size="1.016" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="SW2" gate="G$1" x="161.29" y="41.91" smashed="yes">
-<attribute name="NAME" x="158.75" y="49.53" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="158.75" y="46.99" size="1.016" layer="96" font="vector"/>
-</instance>
-<instance part="SW3" gate="G$1" x="161.29" y="29.21" smashed="yes">
-<attribute name="NAME" x="158.75" y="36.83" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="158.75" y="34.29" size="1.016" layer="96" font="vector"/>
-</instance>
-<instance part="SW4" gate="G$1" x="161.29" y="16.51" smashed="yes">
-<attribute name="NAME" x="158.75" y="24.13" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="158.75" y="21.59" size="1.016" layer="96" font="vector"/>
-</instance>
-<instance part="SW5" gate="G$1" x="161.29" y="3.81" smashed="yes">
-<attribute name="NAME" x="158.75" y="11.43" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="158.75" y="8.89" size="1.016" layer="96" font="vector"/>
-</instance>
-<instance part="U$18" gate="G$1" x="176.53" y="-5.08" smashed="yes">
-<attribute name="VALUE" x="176.53" y="-7.62" size="1.016" layer="96" font="vector" rot="R180" align="center"/>
+<instance part="C15" gate="G$1" x="189.23" y="173.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="190.5" y="171.45" size="1.016" layer="95" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="187.96" y="171.45" size="1.016" layer="96" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -3042,14 +3025,18 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="152.4" y1="107.95" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="209.55" y1="182.88" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="182.88" x2="152.4" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="182.88" x2="152.4" y2="173.99" width="0.1524" layer="91"/>
 <junction x="152.4" y="107.95"/>
 <pinref part="C3" gate="G$1" pin="P$1"/>
+<wire x1="152.4" y1="173.99" x2="152.4" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="191.77" y1="144.78" x2="189.23" y2="144.78" width="0.1524" layer="91"/>
 <junction x="189.23" y="144.78"/>
 <pinref part="C4" gate="G$1" pin="P$1"/>
 <wire x1="191.77" y1="121.92" x2="189.23" y2="121.92" width="0.1524" layer="91"/>
 <junction x="189.23" y="121.92"/>
+<pinref part="C15" gate="G$1" pin="P$2"/>
+<wire x1="186.69" y1="173.99" x2="152.4" y2="173.99" width="0.1524" layer="91"/>
+<junction x="152.4" y="173.99"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="P$2"/>
@@ -3128,15 +3115,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <segment>
 <pinref part="POWER" gate="G$1" pin="CATHODE"/>
 <wire x1="52.07" y1="25.4" x2="64.77" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="64.77" y1="25.4" x2="64.77" y2="13.97" width="0.1524" layer="91"/>
-<pinref part="RX" gate="G$1" pin="CATHODE"/>
-<wire x1="64.77" y1="13.97" x2="64.77" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="64.77" y1="2.54" x2="64.77" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="52.07" y1="2.54" x2="64.77" y2="2.54" width="0.1524" layer="91"/>
-<junction x="64.77" y="2.54"/>
-<pinref part="TX" gate="G$1" pin="CATHODE"/>
-<wire x1="52.07" y1="13.97" x2="64.77" y2="13.97" width="0.1524" layer="91"/>
-<junction x="64.77" y="13.97"/>
+<wire x1="64.77" y1="25.4" x2="64.77" y2="21.59" width="0.1524" layer="91"/>
 <pinref part="U$15" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
@@ -3145,50 +3124,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="J5" gate="G$1" pin="PIN10"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="G$1" pin="P$3"/>
-<wire x1="158.75" y1="39.37" x2="157.48" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="39.37" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="38.1" x2="165.1" y2="39.37" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="G$1" pin="P$4"/>
-<wire x1="165.1" y1="39.37" x2="163.83" y2="39.37" width="0.1524" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="P$1"/>
-<wire x1="165.1" y1="38.1" x2="176.53" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="38.1" x2="176.53" y2="25.4" width="0.1524" layer="91"/>
-<junction x="165.1" y="38.1"/>
-<pinref part="SW5" gate="G$1" pin="P$3"/>
-<wire x1="176.53" y1="25.4" x2="176.53" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="12.7" x2="176.53" y2="0" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="0" x2="176.53" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="158.75" y1="1.27" x2="157.48" y2="1.27" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="1.27" x2="157.48" y2="0" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="0" x2="165.1" y2="0" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="0" x2="165.1" y2="1.27" width="0.1524" layer="91"/>
-<pinref part="SW5" gate="G$1" pin="P$4"/>
-<wire x1="165.1" y1="1.27" x2="163.83" y2="1.27" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="0" x2="176.53" y2="0" width="0.1524" layer="91"/>
-<junction x="165.1" y="0"/>
-<junction x="176.53" y="0"/>
-<pinref part="SW4" gate="G$1" pin="P$4"/>
-<wire x1="163.83" y1="13.97" x2="165.1" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="13.97" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="SW4" gate="G$1" pin="P$3"/>
-<wire x1="158.75" y1="13.97" x2="157.48" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="13.97" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="12.7" x2="176.53" y2="12.7" width="0.1524" layer="91"/>
-<junction x="165.1" y="12.7"/>
-<junction x="176.53" y="12.7"/>
-<pinref part="SW3" gate="G$1" pin="P$3"/>
-<wire x1="158.75" y1="26.67" x2="157.48" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="26.67" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="25.4" x2="165.1" y2="26.67" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="P$4"/>
-<wire x1="165.1" y1="26.67" x2="163.83" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="25.4" x2="176.53" y2="25.4" width="0.1524" layer="91"/>
-<junction x="165.1" y="25.4"/>
-<junction x="176.53" y="25.4"/>
+<wire x1="307.34" y1="83.82" x2="313.69" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="PIN11"/>
+<label x="307.34" y="83.82" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -3336,6 +3274,11 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="R4" gate="G$1" pin="P$2"/>
 <wire x1="209.55" y1="177.8" x2="196.85" y2="177.8" width="0.1524" layer="91"/>
 <label x="201.93" y="177.8" size="1.016" layer="95" font="vector"/>
+<pinref part="C15" gate="G$1" pin="P$1"/>
+<wire x1="196.85" y1="177.8" x2="194.31" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="177.8" x2="196.85" y2="173.99" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="173.99" x2="191.77" y2="173.99" width="0.1524" layer="91"/>
+<junction x="196.85" y="177.8"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="P$1"/>
@@ -3423,9 +3366,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <label x="252.73" y="187.96" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="P$1"/>
-<wire x1="33.02" y1="2.54" x2="29.21" y2="2.54" width="0.1524" layer="91"/>
-<label x="29.21" y="2.54" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="RX" gate="G$1" pin="CATHODE"/>
+<wire x1="52.07" y1="2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
+<label x="55.88" y="2.54" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="TXLED" class="0">
@@ -3435,9 +3378,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <label x="252.73" y="144.78" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="P$1"/>
-<wire x1="33.02" y1="13.97" x2="29.21" y2="13.97" width="0.1524" layer="91"/>
-<label x="29.21" y="13.97" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="TX" gate="G$1" pin="CATHODE"/>
+<wire x1="52.07" y1="13.97" x2="55.88" y2="13.97" width="0.1524" layer="91"/>
+<label x="55.88" y="13.97" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="HWB" class="0">
@@ -3484,7 +3427,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="199.39" y1="116.84" x2="199.39" y2="142.24" width="0.1524" layer="91"/>
 <junction x="199.39" y="142.24"/>
 <pinref part="R4" gate="G$1" pin="P$1"/>
-<wire x1="186.69" y1="177.8" x2="181.61" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="177.8" x2="181.61" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="177.8" x2="181.61" y2="187.96" width="0.1524" layer="91"/>
 <junction x="181.61" y="187.96"/>
 </segment>
@@ -3586,6 +3529,14 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="29.21" y1="25.4" x2="29.21" y2="29.21" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="P$1"/>
 <wire x1="33.02" y1="25.4" x2="29.21" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="P$1"/>
+<wire x1="33.02" y1="13.97" x2="29.21" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="13.97" x2="29.21" y2="25.4" width="0.1524" layer="91"/>
+<junction x="29.21" y="25.4"/>
+<pinref part="R7" gate="G$1" pin="P$1"/>
+<wire x1="33.02" y1="2.54" x2="29.21" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="2.54" x2="29.21" y2="13.97" width="0.1524" layer="91"/>
+<junction x="29.21" y="13.97"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -3684,18 +3635,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="116.84" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <label x="119.38" y="58.42" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
-<segment>
-<pinref part="SW5" gate="G$1" pin="P$2"/>
-<wire x1="163.83" y1="6.35" x2="165.1" y2="6.35" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="6.35" x2="165.1" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="7.62" x2="157.48" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="7.62" x2="157.48" y2="6.35" width="0.1524" layer="91"/>
-<pinref part="SW5" gate="G$1" pin="P$1"/>
-<wire x1="157.48" y1="6.35" x2="158.75" y2="6.35" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="7.62" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
-<junction x="157.48" y="7.62"/>
-<label x="154.94" y="7.62" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="D6*" class="0">
 <segment>
@@ -3712,18 +3651,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="R15" gate="G$1" pin="P$2"/>
 <wire x1="116.84" y1="13.97" x2="119.38" y2="13.97" width="0.1524" layer="91"/>
 <label x="119.38" y="13.97" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SW4" gate="G$1" pin="P$2"/>
-<wire x1="163.83" y1="19.05" x2="165.1" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="19.05" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="20.32" x2="157.48" y2="19.05" width="0.1524" layer="91"/>
-<pinref part="SW4" gate="G$1" pin="P$1"/>
-<wire x1="157.48" y1="19.05" x2="158.75" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="20.32" x2="154.94" y2="20.32" width="0.1524" layer="91"/>
-<junction x="157.48" y="20.32"/>
-<label x="154.94" y="20.32" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IO12" class="0">
@@ -3758,18 +3685,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="R17" gate="G$1" pin="P$2"/>
 <wire x1="116.84" y1="1.27" x2="119.38" y2="1.27" width="0.1524" layer="91"/>
 <label x="119.38" y="1.27" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SW2" gate="G$1" pin="P$2"/>
-<wire x1="163.83" y1="44.45" x2="165.1" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="44.45" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="45.72" x2="157.48" y2="44.45" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="G$1" pin="P$1"/>
-<wire x1="157.48" y1="44.45" x2="158.75" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
-<junction x="157.48" y="45.72"/>
-<label x="154.94" y="45.72" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D1/TX" class="0">
@@ -3852,18 +3767,6 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="R11" gate="G$1" pin="P$2"/>
 <wire x1="116.84" y1="39.37" x2="119.38" y2="39.37" width="0.1524" layer="91"/>
 <label x="119.38" y="39.37" size="1.016" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SW3" gate="G$1" pin="P$2"/>
-<wire x1="165.1" y1="31.75" x2="163.83" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="31.75" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="P$1"/>
-<wire x1="158.75" y1="31.75" x2="157.48" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="31.75" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="33.02" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="33.02" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
-<junction x="157.48" y="33.02"/>
-<label x="154.94" y="33.02" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IO8" class="0">
