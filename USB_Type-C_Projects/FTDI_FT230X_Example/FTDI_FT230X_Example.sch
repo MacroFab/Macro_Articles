@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3365,7 +3365,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 </part>
 <part name="FRAME1" library="MF_Aesthetics" deviceset="MF_FRAME" device="DEFAULT" value="MF_FRAMEDEFAULT">
 <attribute name="DNAME" value="Parker Dillmann"/>
-<attribute name="REVNUM" value="REV: 1"/>
+<attribute name="REVNUM" value="REV: 2"/>
 </part>
 <part name="X1" library="MF_Frequency_Control" deviceset="CYRSTAL_GND" device="_ABMM" value="ABMM-6.000MHZ-B2-T">
 <attribute name="MPN" value="ABMM-6.000MHZ-B2-T"/>

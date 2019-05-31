@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1207,7 +1207,7 @@
 <attribute name="HOUSEPART" value="0" x="10.16" y="8.128" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="10.16" y="8.128" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="0" x="10.16" y="8.128" size="1.778" layer="27" display="off"/>
-<attribute name="REVNUM" value="REV: 1" x="10.16" y="3.048" size="0.8128" layer="21" font="vector" ratio="16"/>
+<attribute name="REVNUM" value="REV: 2" x="10.16" y="3.048" size="0.8128" layer="21" font="vector" ratio="16"/>
 <attribute name="URL" value="" x="10.16" y="8.128" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
@@ -1341,8 +1341,8 @@
 <wire x1="26.6675" y1="45.4025" x2="26.6675" y2="45.593" width="0.127" layer="16"/>
 <via x="26.6675" y="45.593" extent="1-16" drill="0.254"/>
 <contactref element="U1" pad="3"/>
-<wire x1="26.6675" y1="45.593" x2="26.9175" y2="45.593" width="0.127" layer="1"/>
-<wire x1="26.9175" y1="45.593" x2="26.9175" y2="44.5745" width="0.127" layer="1"/>
+<wire x1="26.6675" y1="45.593" x2="26.9175" y2="45.343" width="0.127" layer="1"/>
+<wire x1="26.9175" y1="45.343" x2="26.9175" y2="44.5745" width="0.127" layer="1"/>
 </signal>
 <signal name="D-">
 <contactref element="J1" pad="A7"/>
@@ -1365,8 +1365,8 @@
 <wire x1="25.0215" y1="46.0375" x2="24.7675" y2="45.7835" width="0.127" layer="16" curve="90"/>
 <wire x1="24.7675" y1="45.7835" x2="24.7675" y2="45.593" width="0.127" layer="16"/>
 <contactref element="U1" pad="4"/>
-<wire x1="24.7675" y1="45.593" x2="24.5175" y2="45.593" width="0.127" layer="1"/>
-<wire x1="24.5175" y1="45.593" x2="24.5175" y2="44.5745" width="0.127" layer="1"/>
+<wire x1="24.7675" y1="45.593" x2="24.5175" y2="45.343" width="0.127" layer="1"/>
+<wire x1="24.5175" y1="45.343" x2="24.5175" y2="44.5745" width="0.127" layer="1"/>
 </signal>
 <signal name="SHEILD1">
 <contactref element="J1" pad="S_T2"/>
@@ -1710,8 +1710,6 @@
 <wire x1="15.621" y1="43.815" x2="15.621" y2="45.847" width="0.127" layer="1"/>
 <wire x1="17.78" y1="35.814" x2="17.78" y2="35.052" width="0.254" layer="1"/>
 <via x="17.78" y="35.052" extent="1-16" drill="0.254"/>
-<wire x1="17.78" y1="35.052" x2="13.589" y2="39.243" width="0.254" layer="16"/>
-<wire x1="13.589" y1="39.243" x2="5.207" y2="39.243" width="0.254" layer="16"/>
 <wire x1="5.207" y1="39.243" x2="1.524" y2="39.243" width="0.254" layer="16"/>
 <wire x1="4.6355" y1="42.3545" x2="9.398" y2="47.117" width="0.254" layer="1"/>
 <wire x1="15.621" y1="45.847" x2="14.351" y2="47.117" width="0.127" layer="1"/>
@@ -1763,6 +1761,9 @@
 <wire x1="11.286" y1="47.608" x2="11.286" y2="51.054" width="0.254" layer="1"/>
 <wire x1="14.351" y1="47.117" x2="11.777" y2="47.117" width="0.127" layer="1"/>
 <wire x1="11.777" y1="47.117" x2="11.286" y2="47.608" width="0.127" layer="1"/>
+<wire x1="16.637" y1="39.243" x2="17.78" y2="38.1" width="0.254" layer="16"/>
+<wire x1="17.78" y1="38.1" x2="17.78" y2="35.052" width="0.254" layer="16"/>
+<wire x1="5.207" y1="39.243" x2="16.637" y2="39.243" width="0.254" layer="16"/>
 </signal>
 <signal name="A0">
 <contactref element="U2" pad="P$36"/>
