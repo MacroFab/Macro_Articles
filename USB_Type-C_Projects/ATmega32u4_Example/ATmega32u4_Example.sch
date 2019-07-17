@@ -3118,10 +3118,10 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="MPN" value="IP4234CZ6,125"/>
 </part>
 <part name="U2" library="MF_IC_Digital" deviceset="ATMEGA32U4" device="-AU" value="ATMEGA32U4-AU"/>
-<part name="R2" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="22">
+<part name="R3" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="22">
 <attribute name="MPN" value="MF-RES-0603-22"/>
 </part>
-<part name="R3" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="22">
+<part name="R4" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="22">
 <attribute name="MPN" value="MF-RES-0603-22"/>
 </part>
 <part name="U$1" library="MF_Aesthetics" deviceset="GND_RAIL" device="" value="GND"/>
@@ -3132,7 +3132,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <part name="C4" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" value="0.1uF">
 <attribute name="MPN" value="MF-CAP-0603-0.1uF"/>
 </part>
-<part name="R4" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10K">
+<part name="R19" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="10K">
 <attribute name="MPN" value="MF-RES-0603-10K"/>
 </part>
 <part name="X1" library="MF_Frequency_Control" deviceset="CYRSTAL_GND" device="_ABM3B" value="ABM3B-16.000MHZ-D-1-X-T">
@@ -3285,6 +3285,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="DNAME" value="Parker Dillmnan"/>
 <attribute name="REVNUM" value="REV: 2"/>
 </part>
+<part name="R2" library="MF_Passives" deviceset="RESISTOR" device="_0603" value="5.1K">
+<attribute name="MPN" value="ERJ-3EKF5101V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -3358,9 +3361,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <instance part="U$6" gate="G$1" x="67.31" y="187.96" smashed="yes">
 <attribute name="VALUE" x="67.31" y="190.5" size="1.016" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="R1" gate="G$1" x="26.67" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.13" y="151.384" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="24.13" y="148.844" size="1.016" layer="96" font="vector"/>
+<instance part="R1" gate="G$1" x="26.67" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.13" y="153.924" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="24.13" y="151.384" size="1.016" layer="96" font="vector"/>
 </instance>
 <instance part="L1" gate="G$1" x="29.21" y="177.8" smashed="yes">
 <attribute name="NAME" x="24.13" y="182.88" size="1.016" layer="95" font="vector" align="top-left"/>
@@ -3379,11 +3382,11 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="NAME" x="212.09" y="195.58" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="212.09" y="193.04" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="R2" gate="G$1" x="175.26" y="160.02" smashed="yes" rot="R90">
+<instance part="R3" gate="G$1" x="175.26" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="172.72" y="164.084" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="172.72" y="161.544" size="1.016" layer="96" font="vector"/>
 </instance>
-<instance part="R3" gate="G$1" x="175.26" y="152.4" smashed="yes" rot="R90">
+<instance part="R4" gate="G$1" x="175.26" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="172.72" y="156.464" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="172.72" y="153.924" size="1.016" layer="96" font="vector"/>
 </instance>
@@ -3401,7 +3404,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="NAME" x="193.04" y="124.46" size="1.016" layer="95" font="vector" rot="MR90"/>
 <attribute name="VALUE" x="195.58" y="124.46" size="1.016" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="189.23" y="177.8" smashed="yes" rot="R90">
+<instance part="R19" gate="G$1" x="189.23" y="177.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.69" y="181.864" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="186.69" y="179.324" size="1.016" layer="96" font="vector"/>
 </instance>
@@ -3639,6 +3642,10 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <attribute name="REVNUM" x="138.502" y="1.318" size="2.54" layer="94" font="vector"/>
 <attribute name="DNAME" x="160.092" y="-3.762" size="2.54" layer="94" font="vector"/>
 </instance>
+<instance part="R2" gate="G$1" x="26.67" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.13" y="148.844" size="1.016" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="24.13" y="146.304" size="1.016" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3650,9 +3657,10 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="19.05" y1="127" x2="19.05" y2="132.08" width="0.1524" layer="91"/>
 <junction x="44.45" y="132.08"/>
 <wire x1="44.45" y1="132.08" x2="19.05" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="31.75" y1="147.32" x2="44.45" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="44.45" y1="147.32" x2="44.45" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="149.86" x2="44.45" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="149.86" x2="44.45" y2="144.78" width="0.1524" layer="91"/>
 <junction x="44.45" y="132.08"/>
+<wire x1="44.45" y1="144.78" x2="44.45" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="34.29" y1="124.46" x2="44.45" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="44.45" y1="124.46" x2="44.45" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
@@ -3672,6 +3680,9 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="90.17" y1="158.75" x2="90.17" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="87.63" y1="158.75" x2="90.17" y2="158.75" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="P$2"/>
+<wire x1="31.75" y1="144.78" x2="44.45" y2="144.78" width="0.1524" layer="91"/>
+<junction x="44.45" y="144.78"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="UGND"/>
@@ -3791,30 +3802,30 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="D+" class="0">
 <segment>
 <label x="21.59" y="137.16" size="1.016" layer="95" font="vector"/>
-<wire x1="39.37" y1="156.21" x2="39.37" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="137.16" x2="19.05" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="156.21" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="137.16" x2="19.05" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="D+1"/>
 <wire x1="16.51" y1="137.16" x2="19.05" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="19.05" y1="137.16" x2="19.05" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="D+2"/>
 <wire x1="19.05" y1="134.62" x2="16.51" y2="134.62" width="0.1524" layer="91"/>
 <junction x="19.05" y="137.16"/>
-<wire x1="39.37" y1="156.21" x2="69.85" y2="156.21" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="156.21" x2="69.85" y2="156.21" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="I/O1B"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <label x="21.59" y="142.24" size="1.016" layer="95" font="vector"/>
-<wire x1="34.29" y1="161.29" x2="34.29" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="34.29" y1="142.24" x2="19.05" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="161.29" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="142.24" x2="19.05" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="D-1"/>
 <wire x1="16.51" y1="142.24" x2="19.05" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="19.05" y1="142.24" x2="19.05" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="D-2"/>
 <wire x1="19.05" y1="139.7" x2="16.51" y2="139.7" width="0.1524" layer="91"/>
 <junction x="19.05" y="142.24"/>
-<wire x1="34.29" y1="161.29" x2="69.85" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="161.29" x2="69.85" y2="161.29" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="I/O2B"/>
 </segment>
 </net>
@@ -3825,15 +3836,12 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="L2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="CC1/1" class="0">
+<net name="CC1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CC1"/>
 <wire x1="16.51" y1="147.32" x2="19.05" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="19.05" y1="147.32" x2="19.05" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="CC2"/>
-<wire x1="19.05" y1="144.78" x2="16.51" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="19.05" y1="147.32" x2="21.59" y2="147.32" width="0.1524" layer="91"/>
-<junction x="19.05" y="147.32"/>
+<wire x1="19.05" y1="147.32" x2="19.05" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="149.86" x2="21.59" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -3878,7 +3886,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="U1" gate="G$1" pin="I/O1A"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="P$1"/>
+<pinref part="R4" gate="G$1" pin="P$1"/>
 <wire x1="170.18" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
 <label x="165.1" y="152.4" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -3890,7 +3898,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="U1" gate="G$1" pin="I/O2A"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="P$1"/>
+<pinref part="R3" gate="G$1" pin="P$1"/>
 <wire x1="170.18" y1="160.02" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
 <label x="165.1" y="160.02" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -3900,7 +3908,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="U2" gate="G$1" pin="D-"/>
 <wire x1="209.55" y1="157.48" x2="186.69" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="157.48" x2="186.69" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$2"/>
+<pinref part="R3" gate="G$1" pin="P$2"/>
 <wire x1="186.69" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3909,7 +3917,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="U2" gate="G$1" pin="D+"/>
 <wire x1="209.55" y1="154.94" x2="186.69" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="186.69" y1="154.94" x2="186.69" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="P$2"/>
+<pinref part="R4" gate="G$1" pin="P$2"/>
 <wire x1="186.69" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3930,7 +3938,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <net name="RESET" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="!RESET"/>
-<pinref part="R4" gate="G$1" pin="P$2"/>
+<pinref part="R19" gate="G$1" pin="P$2"/>
 <wire x1="209.55" y1="177.8" x2="196.85" y2="177.8" width="0.1524" layer="91"/>
 <label x="201.93" y="177.8" size="1.016" layer="95" font="vector"/>
 <pinref part="C15" gate="G$1" pin="P$1"/>
@@ -4085,7 +4093,7 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <wire x1="209.55" y1="116.84" x2="199.39" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="116.84" x2="199.39" y2="142.24" width="0.1524" layer="91"/>
 <junction x="199.39" y="142.24"/>
-<pinref part="R4" gate="G$1" pin="P$1"/>
+<pinref part="R19" gate="G$1" pin="P$1"/>
 <wire x1="184.15" y1="177.8" x2="181.61" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="177.8" x2="181.61" y2="187.96" width="0.1524" layer="91"/>
 <junction x="181.61" y="187.96"/>
@@ -4515,6 +4523,13 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <pinref part="RX" gate="G$1" pin="ANODE"/>
 <pinref part="R7" gate="G$1" pin="P$2"/>
 <wire x1="29.21" y1="1.27" x2="25.4" y2="1.27" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CC2" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="CC2"/>
+<pinref part="R2" gate="G$1" pin="P$1"/>
+<wire x1="16.51" y1="144.78" x2="21.59" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
